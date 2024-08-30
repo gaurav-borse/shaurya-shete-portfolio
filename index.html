@@ -1,0 +1,1464 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Site Title
+    ================================================== -->
+    <title class="notranslate">Shaurya Shete | Full Stack Web Developer</title>
+
+    <!-- SEO Meta Tags
+    ================================================== -->
+    <meta name="description"
+        content="Shaurya Shete - Full Stack Web Developer specializing in backend development, building scalable and efficient web applications.">
+    <meta name="keywords"
+        content="Shaurya Shete, web developer, full stack developer, backend developer, web development, software engineer, programmer, coder, web applications">
+    <meta name="author" content="Shaurya Shete">
+
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="Shaurya Shete | Full Stack Web Developer">
+    <meta property="og:description"
+        content="Shaurya Shete - Full Stack Web Developer specializing in backend development, building scalable and efficient web applications.">
+    <meta property="og:image" content="assets/img/shau-profile.png"> <!-- Hey, Change URL -->
+    <meta property="og:url" content="URL_to_your_website"> <!-- Hey, Change URL -->
+    <link rel="canonical" href="URL_to_your_website"> <!-- Hey, Change URL -->
+    <meta property="og:type" content="website">
+
+    <!-- Site Favicon
+    ================================================== -->
+    <link rel="shortcut icon" href="assets/img/logo.png" sizes="any" type="image/x-icon">
+
+    <!-- Google Fonts
+    ================================================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- All CSS Here
+    ================================================== -->
+    <link rel="stylesheet" href="assets/css/fontAwesome5Pro.css">
+    <link rel="stylesheet" href="assets/css/cdheadline.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="assets/css/custome.css">
+
+</head>
+
+<body class="relative custom_cursor">
+    <!-- Custom Cursor Start -->
+    <div class="custom_cursor_one fixed top-0 left-0 w-8 h-8 border border-gray-400 rounded-full pointer-events-none">
+    </div>
+    <div
+        class="custom_cursor_two w-1 h-1 rounded-full border border-gray-400 bg-metborder-gray-400 fixed pointer-events-none left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+    </div>
+    <!-- Custom Cursor End -->
+
+    <!-- App Preloader Start -->
+    <div id="preloader">
+        <div class="loader_line"></div>
+        <div
+            class="absolute w-20 h-20 transition-all delay-300 -translate-x-1/2 -translate-y-1/2 rounded-full logo top-1/2 left-1/2 bg-nightBlack border-greyBlack flex-center">
+            <img class="p-3" src="assets/img/logo.png" alt="Minfo">
+        </div>
+    </div>
+    <!-- App Preloader End -->
+
+
+    <!-- App Start -->
+    <div class="relative pt-10 minfo__app max-xl:pt-20">
+        <div
+            class="menu-overlay fixed top-0 left-0 w-full h-full bg-black/60 transition-all duration-200 z-999 opacity-0 invisible [&.is-menu-open]:visible [&.is-menu-open]:opacity-100">
+        </div>
+        <div class="max-lg:px-4">
+
+            <!-- Mobile Menu Bar Start -->
+            <div
+                class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-2 px-3 bg-white/10 mobile-menu-bar sm:px-6 backdrop-blur-md xl:hidden">
+                <div class="text-lg font-medium name">
+                    <a class='flex items-center gap-2 text-black dark:text-white' href='index.html'>
+                        <img src="assets/img/logo.png" width="32" height="33" alt="Shaurya Shete's Portfolio Logo">
+                        <span>Shaurya Shete</span>
+                    </a>
+                </div>
+                <!-- Mobile Hamburger Menu Start -->
+                <button
+                    class="w-12 h-12 border rounded-full hamburger menu_toggle bg-white dark:bg-nightBlack border-platinum dark:border-greyBlack flex-center"
+                    type="button" aria-label="Open Mobile Menu">
+                    <svg viewBox="0 0 20 12" class="w-6" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M5.33333 11.3333C5.33333 11.1565 5.40357 10.987 5.5286 10.8619C5.65362 10.7369 5.82319 10.6667 6 10.6667H19.3333C19.5101 10.6667 19.6797 10.7369 19.8047 10.8619C19.9298 10.987 20 11.1565 20 11.3333C20 11.5101 19.9298 11.6797 19.8047 11.8047C19.6797 11.9298 19.5101 12 19.3333 12H6C5.82319 12 5.65362 11.9298 5.5286 11.8047C5.40357 11.6797 5.33333 11.5101 5.33333 11.3333ZM2.66667 6C2.66667 5.82319 2.7369 5.65362 2.86193 5.5286C2.98695 5.40357 3.15652 5.33333 3.33333 5.33333H16.6667C16.8435 5.33333 17.013 5.40357 17.1381 5.5286C17.2631 5.65362 17.3333 5.82319 17.3333 6C17.3333 6.17681 17.2631 6.34638 17.1381 6.4714C17.013 6.59643 16.8435 6.66667 16.6667 6.66667H3.33333C3.15652 6.66667 2.98695 6.59643 2.86193 6.4714C2.7369 6.34638 2.66667 6.17681 2.66667 6ZM0 0.666667C0 0.489856 0.0702379 0.320287 0.195262 0.195262C0.320286 0.070238 0.489856 0 0.666667 0H14C14.1768 0 14.3464 0.070238 14.4714 0.195262C14.5964 0.320287 14.6667 0.489856 14.6667 0.666667C14.6667 0.843478 14.5964 1.01305 14.4714 1.13807C14.3464 1.2631 14.1768 1.33333 14 1.33333H0.666667C0.489856 1.33333 0.320286 1.2631 0.195262 1.13807C0.0702379 1.01305 0 0.843478 0 0.666667Z"
+                            class="fill-theme dark:fill-white" />
+                    </svg>
+                </button>
+                <!-- Mobile Hamburger Menu End -->
+            </div>
+            <!-- Mobile Menu Bar End -->
+
+
+            <!-- Mobile Menu Sidebar Start -->
+            <div
+                class="mobile-menu fixed top-0 -right-full w-full max-w-mobilemenu bg-flashWhite dark:bg-nightBlack z-999 h-full xl:hidden transition-all duration-300 [&.is-menu-open]:right-0 py-12 px-8 overflow-y-scroll">
+                <button
+                    class="absolute flex items-center justify-center w-9 h-9 text-sm text-white rounded-full close-menu top-4 right-4 bg-greyBlack"
+                    aria-label="Close Menu">
+                    <i class="fal fa-times"></i>
+                </button>
+                <div class="mb-6 text-lg font-medium text-black dark:text-white menu-title">
+                    Menu
+                </div>
+                <ul class="space-y-5 font-normal main-menu">
+                    <li data-scroll-nav="0" class="relative group active">
+                        <a href="#home" class="flex items-center space-x-2 group">
+                            <span class="w-5 text-black dark:text-white group-[&.active]:text-theme">
+                                <i class="fal fa-home"></i>
+                            </span>
+                            <span
+                                class="group-[&.active]:text-theme dark:group-[&.active]:text-white group-hover:text-theme transition-colors">
+                                Home
+                            </span>
+                        </a>
+                    </li>
+                    <li data-scroll-nav="1" class="relative group">
+                        <a href="#about" class="flex items-center space-x-2 group">
+                            <span class="w-5 text-black dark:text-white group-[&.active]:text-theme">
+                                <i class="fal fa-user"></i>
+                            </span>
+                            <span
+                                class="group-[&.active]:text-theme dark:group-[&.active]:text-white group-hover:text-theme transition-colors">
+                                About
+                            </span>
+                        </a>
+                    </li>
+                    <li data-scroll-nav="2" class="relative group">
+                        <a href="#" class="flex items-center space-x-2 group">
+                            <span class="w-5 text-black dark:text-white group-[&.active]:text-theme">
+                                <i class="fal fa-briefcase"></i>
+                            </span>
+                            <span
+                                class="group-[&.active]:text-theme dark:group-[&.active]:text-white group-hover:text-theme transition-colors">
+                                Service
+                            </span>
+                        </a>
+                    </li>
+                    <li data-scroll-nav="3" class="relative group">
+                        <a href="#skill" class="flex items-center space-x-2 group">
+                            <span class="w-5 text-black dark:text-white group-[&.active]:text-theme">
+                                <i class="fal fa-graduation-cap"></i>
+                            </span>
+                            <span
+                                class="group-[&.active]:text-theme dark:group-[&.active]:text-white group-hover:text-theme transition-colors">
+                                Skills
+                            </span>
+                        </a>
+                    </li>
+                    <li data-scroll-nav="4" class="relative group">
+                        <a href="#resume" class="flex items-center space-x-2 group">
+                            <span class="w-5 text-black dark:text-white group-[&.active]:text-theme">
+                                <i class="fal fa-file-alt"></i>
+                            </span>
+                            <span
+                                class="group-[&.active]:text-theme dark:group-[&.active]:text-white group-hover:text-theme transition-colors">
+                                Resume
+                            </span>
+                        </a>
+                    </li>
+                    <li data-scroll-nav="5" class="relative group">
+                        <a href="#portfolio" class="flex items-center space-x-2 group">
+                            <span class="w-5 text-black dark:text-white group-[&.active]:text-theme">
+                                <i class="fal fa-tasks-alt"></i>
+                            </span>
+                            <span
+                                class="group-[&.active]:text-theme dark:group-[&.active]:text-white group-hover:text-theme transition-colors">
+                                Poftfolio
+                            </span>
+                        </a>
+                    </li>
+                    <li data-scroll-nav="8" class="relative group">
+                        <a href="#contact" class="flex items-center space-x-2 group">
+                            <span class="w-5 text-black dark:text-white group-[&.active]:text-theme">
+                                <i class="fal fa-envelope"></i>
+                            </span>
+                            <span
+                                class="group-[&.active]:text-theme dark:group-[&.active]:text-white group-hover:text-theme transition-colors">
+                                Contact
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <br><br>
+                <div class="mb-4 font-medium text-black dark:text-white menu-title text-md">
+                    Get in Touch
+                </div>
+                <!-- Social Share Icon Start  -->
+                <div class="flex items-center space-x-4 social-icons">
+                    
+                    <a href="https://www.linkedin.com/in/shaurya-shete/" class="flex transition duration-200 hover:text-white">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/SHAU06" class="flex transition duration-200 hover:text-white" >
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/shaurya02_15/" class="flex transition duration-200 hover:text-white">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <!-- Social Share Icon End  -->
+            </div>
+            <!-- Mobile Menu Sidebar End -->
+
+
+            <!-- Sidebar Profile Start -->
+            <div
+                class="w-full mx-auto minfo__sidebar__wrapper xl:fixed xl:top-1/2 xl:left-4 2xl:left-14 xl:-translate-y-1/2 md:max-w-sidebar xl:max-2xl:max-w-xs z-999">
+
+                <div class="p-3 mb-3 overflow-hidden minfo__sidebar bg-white dark:bg-nightBlack rounded-2xl">
+                    <div class="mx-4 mt-12 text-center user-info lg:mx-6">
+                        <a class='w-36 h-36 mb-2.5 block mx-auto border-6 border-platinum dark:border-[#2f2f2f] overflow-hidden rounded-full'
+                            href='index.html'>
+                            <img src="assets/img/shau-profile.png" class="hidden dark:block w-full h-full rounded-full"
+                                alt="Brown Reddick">
+                            <!--Image for Dark Version -->
+                        </a>
+                        <h6 class="mb-1 text-lg font-semibold text-black dark:text-white name">Shaurya Shete</h6>
+                        <div class="leading-none cd-headline clip is-full-width">
+                            <h6 class="text-sm cd-words-wrapper designation text-theme after:!bg-theme">
+                                <b class="font-normal is-visible">Web Developer</b>
+                                <b class="font-normal">Web Designer</b>
+                                <b class="font-normal">Full Stack Developer</b>
+                                <b class="font-normal">Software Engineer</b>
+                                <b class="font-normal">Software Developer</b>
+                            </h6>
+                        </div>
+                    </div>
+                    <div
+                        class="pt-6 mx-4 border-t lg:mx-6 user-meta-info md:mx-7 my-7 border-platinum dark:border-metalBlack">
+                        <ul class="space-y-3">
+                            <li class="flex text-sm">
+                                <span class="flex-1 font-medium text-black dark:text-white">Residence:</span>
+                                <span>Pune, India</span>
+                            </li>
+                            <li class="flex text-sm">
+                                <span class="flex-1 font-medium text-black dark:text-white">City:</span>
+                                <span>Pune</span>
+                            </li>
+                            <li class="flex text-sm">
+                                <span class="flex-1 font-medium text-black dark:text-white">Email:</span>
+                                <span>shaushete@gmail.com</span>
+                            </li>
+                            <li class="pt-5 text-center">
+                                <a href="#"
+                                    class="inline-flex items-center gap-2 text-[15px] font-medium border border-theme bg-theme text-white py-4.5 px-9 rounded-4xl leading-none transition-all duration-300 hover:bg-themeHover hover:border-themeHover">
+                                    <i class="fal fa-arrow-down"></i>
+                                    Download CV
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <svg class="absolute w-0 h-0">
+                        <clipPath id="my-clip-path" clipPathUnits="objectBoundingBox" stroke="white" stroke-width="2">
+                            <path
+                                d="M0.001,0.031 C0.001,0.014,0.026,0.001,0.055,0.001 H0.492 C0.506,0.001,0.52,0.004,0.53,0.009 L0.61,0.052 C0.62,0.057,0.634,0.06,0.649,0.06 H0.947 C0.977,0.06,1,0.074,1,0.091 V0.971 C1,0.987,0.977,1,0.947,1 H0.055 C0.026,1,0.001,0.987,0.001,0.971 V0.031">
+                            </path>
+                        </clipPath>
+                    </svg>
+                </div>
+
+            </div>
+            <!-- Sidebar Profile End -->
+
+
+            <!-- Nav/Navigation Start -->
+            <div
+                class="minfo__nav__wrapper bg-snowWhite dark:bg-power__black max-xl:hidden fixed top-1/2 -translate-y-1/2 right-4 2xl:right-14 z-999 flex items-center flex-col gap-4 border border-platinum dark:border-metalBlack rounded-4xl px-2.5 py-4">
+
+                <!-- Site Logo Start -->
+                <div class="flex border rounded-full logo w-15 h-15 border-platinum dark:border-metalBlack flex-center">
+                    <a class="p-2" href='index.html'>
+                        <img src="assets/img/logo.png" alt="SS Logo">
+                    </a>
+                </div>
+                <!-- Site Logo Start -->
+
+
+                <!-- Main Menu/Navigation Start -->
+                <div class="my-4 menu">
+                    <ul class="space-y-2 text-center">
+                        <li data-scroll-nav="0" class="relative group active">
+                            <a href="#home"
+                                class="w-9 h-9 rounded-full flex-center group-[&.active]:bg-white dark:group-[&.active]:bg-metalBlack group-hover:bg-white dark:group-hover:bg-metalBlack transition-all duration-300 before:content-[attr(data-title)] before:absolute before:right-10 before:bg-white dark:before:bg-metalBlack before:text-sm text-theme dark:before:text-white before:px-4 before:py-2 before:rounded-md before:font-normal dark:before:font-light before:opacity-0 before:transition-all before:duration-200 group-hover:before:opacity-100 after:content-[''] after:absolute after:w-0 after:h-0 after:right-8 after:border-solid after:border-t-4 after:border-r-0 after:border-b-4 after:border-l-8 after:border-t-transparent after:border-r-transparent after:border-b-transparent after:border-l-white dark:after:border-l-metalBlack after:opacity-0 after:transition-all after:duration-200 group-hover:after:opacity-100"
+                                data-title="Home">
+                                <span
+                                    class="text-black dark:text-white group-hover:text-theme group-[&.active]:text-theme">
+                                    <i class="fal fa-home"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li data-scroll-nav="1" class="relative group">
+                            <a href="#about"
+                                class="w-9 h-9 rounded-full flex-center group-[&.active]:bg-white dark:group-[&.active]:bg-metalBlack group-hover:bg-white dark:group-hover:bg-metalBlack transition-all duration-300 before:content-[attr(data-title)] before:absolute before:right-10 before:bg-white dark:before:bg-metalBlack before:text-sm text-theme dark:before:text-white before:px-4 before:py-2 before:rounded-md before:font-normal dark:before:font-light before:opacity-0 before:transition-all before:duration-200 group-hover:before:opacity-100 after:content-[''] after:absolute after:w-0 after:h-0 after:right-8 after:border-solid after:border-t-4 after:border-r-0 after:border-b-4 after:border-l-8 after:border-t-transparent after:border-r-transparent after:border-b-transparent after:border-l-white dark:after:border-l-metalBlack after:opacity-0 after:transition-all after:duration-200 group-hover:after:opacity-100"
+                                data-title="About">
+                                <span
+                                    class="text-black dark:text-white group-hover:text-theme group-[&.active]:text-theme">
+                                    <i class="fal fa-user"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li data-scroll-nav="2" class="relative group">
+                            <a href="#service"
+                                class="w-9 h-9 rounded-full flex-center group-[&.active]:bg-white dark:group-[&.active]:bg-metalBlack group-hover:bg-white dark:group-hover:bg-metalBlack transition-all duration-300 before:content-[attr(data-title)] before:absolute before:right-10 before:bg-white dark:before:bg-metalBlack before:text-sm text-theme dark:before:text-white before:px-4 before:py-2 before:rounded-md before:font-normal dark:before:font-light before:opacity-0 before:transition-all before:duration-200 group-hover:before:opacity-100 after:content-[''] after:absolute after:w-0 after:h-0 after:right-8 after:border-solid after:border-t-4 after:border-r-0 after:border-b-4 after:border-l-8 after:border-t-transparent after:border-r-transparent after:border-b-transparent after:border-l-white dark:after:border-l-metalBlack after:opacity-0 after:transition-all after:duration-200 group-hover:after:opacity-100"
+                                data-title="Service">
+                                <span
+                                    class="text-black dark:text-white group-hover:text-theme group-[&.active]:text-theme">
+                                    <i class="fal fa-briefcase"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li data-scroll-nav="3" class="relative group">
+                            <a href="#skill"
+                                class="w-9 h-9 rounded-full flex-center group-[&.active]:bg-white dark:group-[&.active]:bg-metalBlack group-hover:bg-white dark:group-hover:bg-metalBlack transition-all duration-300 before:content-[attr(data-title)] before:absolute before:right-10 before:bg-white dark:before:bg-metalBlack before:text-sm text-theme dark:before:text-white before:px-4 before:py-2 before:rounded-md before:font-normal dark:before:font-light before:opacity-0 before:transition-all before:duration-200 group-hover:before:opacity-100 after:content-[''] after:absolute after:w-0 after:h-0 after:right-8 after:border-solid after:border-t-4 after:border-r-0 after:border-b-4 after:border-l-8 after:border-t-transparent after:border-r-transparent after:border-b-transparent after:border-l-white dark:after:border-l-metalBlack after:opacity-0 after:transition-all after:duration-200 group-hover:after:opacity-100"
+                                data-title="Skills">
+                                <span
+                                    class="text-black dark:text-white group-hover:text-theme group-[&.active]:text-theme">
+                                    <i class="fal fa-graduation-cap"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li data-scroll-nav="4" class="relative group">
+                            <a href="#resume"
+                                class="w-9 h-9 rounded-full flex-center group-[&.active]:bg-white dark:group-[&.active]:bg-metalBlack group-hover:bg-white dark:group-hover:bg-metalBlack transition-all duration-300 before:content-[attr(data-title)] before:absolute before:right-10 before:bg-white dark:before:bg-metalBlack before:text-sm text-theme dark:before:text-white before:px-4 before:py-2 before:rounded-md before:font-normal dark:before:font-light before:opacity-0 before:transition-all before:duration-200 group-hover:before:opacity-100 after:content-[''] after:absolute after:w-0 after:h-0 after:right-8 after:border-solid after:border-t-4 after:border-r-0 after:border-b-4 after:border-l-8 after:border-t-transparent after:border-r-transparent after:border-b-transparent after:border-l-white dark:after:border-l-metalBlack after:opacity-0 after:transition-all after:duration-200 group-hover:after:opacity-100"
+                                data-title="Resume">
+                                <span
+                                    class="text-black dark:text-white group-hover:text-theme group-[&.active]:text-theme">
+                                    <i class="fal fa-file-alt"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li data-scroll-nav="5" class="relative group">
+                            <a href="#portfolio"
+                                class="w-9 h-9 rounded-full flex-center group-[&.active]:bg-white dark:group-[&.active]:bg-metalBlack group-hover:bg-white dark:group-hover:bg-metalBlack transition-all duration-300 before:content-[attr(data-title)] before:absolute before:right-10 before:bg-white dark:before:bg-metalBlack before:text-sm text-theme dark:before:text-white before:px-4 before:py-2 before:rounded-md before:font-normal dark:before:font-light before:opacity-0 before:transition-all before:duration-200 group-hover:before:opacity-100 after:content-[''] after:absolute after:w-0 after:h-0 after:right-8 after:border-solid after:border-t-4 after:border-r-0 after:border-b-4 after:border-l-8 after:border-t-transparent after:border-r-transparent after:border-b-transparent after:border-l-white dark:after:border-l-metalBlack after:opacity-0 after:transition-all after:duration-200 group-hover:after:opacity-100"
+                                data-title="Poftfolio">
+                                <span
+                                    class="text-black dark:text-white group-hover:text-theme group-[&.active]:text-theme">
+                                    <i class="fal fa-tasks-alt"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li data-scroll-nav="8" class="relative group">
+                            <a href="#contact"
+                                class="w-9 h-9 rounded-full flex-center group-[&.active]:bg-white dark:group-[&.active]:bg-metalBlack group-hover:bg-white dark:group-hover:bg-metalBlack transition-all duration-300 before:content-[attr(data-title)] before:absolute before:right-10 before:bg-white dark:before:bg-metalBlack before:text-sm text-theme dark:before:text-white before:px-4 before:py-2 before:rounded-md before:font-normal dark:before:font-light before:opacity-0 before:transition-all before:duration-200 group-hover:before:opacity-100 after:content-[''] after:absolute after:w-0 after:h-0 after:right-8 after:border-solid after:border-t-4 after:border-r-0 after:border-b-4 after:border-l-8 after:border-t-transparent after:border-r-transparent after:border-b-transparent after:border-l-white dark:after:border-l-metalBlack after:opacity-0 after:transition-all after:duration-200 group-hover:after:opacity-100"
+                                data-title="Contact">
+                                <span
+                                    class="text-black dark:text-white group-hover:text-theme group-[&.active]:text-theme">
+                                    <i class="fal fa-envelope"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Main Menu/Navigation End -->
+
+                <!-- Share Button Wrapper Start -->
+                <div class="relative share group">
+                    <button
+                        class="w-10 h-10 text-sm border rounded-full border-platinum dark:border-metalBlack flex-center group-hover:bg-white dark:group-hover:bg-metalBlack text-black dark:text-white"
+                        aria-label="Share">
+                        <i class="fal fa-link"></i>
+                    </button>
+
+                    <!-- Social Share Icon Start  -->
+                    <div
+                        class="absolute bottom-0 flex items-center invisible px-5 py-6 space-x-3 transition-all duration-300 -translate-y-1/2 opacity-0 social-icons top-1/2 bg-white dark:bg-nightBlack rounded-4xl right-6 group-hover:opacity-100 group-hover:visible group-hover:right-10 -z-1">
+                        <a href="https://www.linkedin.com/in/shaurya-shete/" target="_blank"
+                            class="flex transition duration-200 hover:text-theme" title="Follow on Linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/SHAU06" target="_blank"
+                            class="flex transition duration-200 hover:text-theme" title="Follow on GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/shaurya02_15/" class="flex transition duration-200 hover:text-theme" title="Follow on Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <!-- Social Share Icon End  -->
+                </div>
+                <!-- Share Button Wrapper End -->
+
+            </div>
+            <!-- Nav/Navigation End -->
+
+
+            <!-- Main Content Start -->
+            <div class="relative mx-auto minfo__contentBox max-w-container xl:max-2xl:max-w-65rem">
+
+                <!-- Hero/Introduction Section Start -->
+                <div data-scroll-index="0" id="home"
+                    class="py-5 xl:py-3.5 max-w-content xl:max-2xl:max-w-50rem max-xl:mx-auto xl:ml-auto">
+
+                    <div class="px-5 py-8 bg-white dark:bg-nightBlack rounded-2xl hero-section md:p-8 lg:p-10 2xl:p-13">
+                        <div
+                            class="inline-flex items-center gap-2 px-4 py-2 text-xs tracking-wide text-black dark:text-white border lg:px-5 section-name border-platinum dark:border-greyBlack200 rounded-4xl">
+                            <i class="fal fa-home text-theme"></i>
+                            INTRODUCE
+                        </div>
+                        <div class="items-center gap-6 hero-content md:flex xl:gap-10">
+                            <div class="text-content pt-7 lg:pt-8 max-lg:max-w-[30rem]">
+                                <h1
+                                    class="text-[32px] lg:text-5xl xl:text-4xl 2xl:text-5xl font-semibold text-black dark:text-white leading-1.27 lg:leading-1.27 xl:leading-1.27 2xl:leading-1.27 mb-4 lg:mb-5">
+                                    I Craft Client <br>Needs Into<br>
+                                    <span class="text-theme">Digital Solutions</span>
+                                </h1>
+                                <p>
+                                    I am a <span class="font-medium text-black dark:text-white/90">Software
+                                        Developer</span> experienced in full-stack development and client-focused
+                                    digital solutions.
+                                </p>
+                                <ul class="flex items-center mt-4 -mx-3 lg:mt-5">
+                                    <li class="flex items-center mx-3 text-regular">
+                                        <i class="mr-2 fal fa-check-double text-theme"></i>
+                                        Available for work
+                                    </li>
+                                    <li class="flex items-center mx-3 text-regular">
+                                        <i class="mr-2 fal fa-check-double text-theme"></i>
+                                        Full Time Job
+                                    </li>
+                                </ul>
+                                <ul class="mt-7 buttons">
+                                    <li data-scroll-nav="8">
+                                        <a href="#contact"
+                                            class="btn-theme inline-flex items-center gap-2 bg-theme text-power__black py-4 md:py-4.5 lg:px-9 px-7 rounded-4xl leading-none transition-all duration-300 hover:shadow-theme_shadow text-white font-medium text-[15px] md:text-base">
+                                            <i class="fal fa-paper-plane"></i>
+                                            CONTACT ME
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="hero-image flex-[0_0_20.3rem] max-md:hidden">
+                                <img src="assets/img/hero_img-1.png" class="dark:hidden" alt="Hero Image - Light Mode">
+                                <img src="assets/img/hero_img.png" class="hidden dark:block"
+                                    alt="Hero Image - Dark Mode">
+                            </div>
+                        </div>
+                        <div class="mb-2 mt-14 xl:mb-0 xl:mt-20">
+                            <div class="items-center grid-cols-12 overflow-hidden md:grid">
+                                <div class="hidden col-span-2 md:inline-block">
+                                    <h6
+                                        class="font-medium text-black dark:text-white/80 text-sm md:max-w-[8rem] border-l border-theme pl-4">
+                                        Worked At
+                                    </h6>
+                                </div>
+                                <div class="col-span-10 logo-slider">
+                                    <div class="swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <a href="#" class="transition duration-200 flex-center">
+                                                    <img src="assets/img/companies/hha.png" alt="Partner Name"
+                                                        style="aspect-ratio: 5/2.5; filter: grayscale(1);">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="#" class="transition duration-200 flex-center">
+                                                    <img src="assets/img/companies/shout.jpeg" alt="Partner Name"
+                                                        style="aspect-ratio: 5/2.5; filter: grayscale(1);">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="#" class="transition duration-200 flex-center">
+                                                    <img src="assets/img/companies/innovativeSolu.jpg"
+                                                        alt="Partner Name"
+                                                        style="aspect-ratio: 5/2.5; filter: grayscale(1);">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Hero/Introduction Section End -->
+
+
+                <!-- About Me Section Start -->
+                <div data-scroll-index="1" id="about"
+                    class="py-3.5  max-w-content xl:max-2xl:max-w-50rem max-xl:mx-auto xl:ml-auto">
+
+                    <div
+                        class="px-5 py-8 md:p-8 bg-white dark:bg-nightBlack rounded-2xl about-section lg:p-10 2xl:p-13">
+                        <div
+                            class="inline-flex items-center gap-2 px-4 py-2 text-xs tracking-wide text-black dark:text-white border lg:px-5 section-name border-platinum dark:border-greyBlack200 rounded-4xl">
+                            <i class="fal fa-user text-theme"></i>
+                            ABOUT ME
+                        </div>
+                        <div class="mt-7 md:mt-10 section-title">
+                            <h2
+                                class="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black dark:text-white leading-1.27">
+                                About <span class="font-semibold text-theme">Me</span>
+                            </h2>
+                            <p class="max-w-2xl mt-4 md:mt-6 subtitle">
+                                Hi, I am <span class="text-black dark:text-white">Shaurya Shete</span> a dedicated
+                                software engineer with a background in enhancing healthcare and digital marketing
+                                applications. My expertise spans technologies like <span
+                                    class="text-black dark:text-white">Angular, .NET, and PHP</span>, delivering
+                                projects from concept to completion.
+                            </p>
+                        </div>
+                        <div class="mt-6 section-content">
+                            <div class="inline-flex flex-wrap items-center gap-2 mb-5 text-sm md:gap-4">
+                                <a href="#"
+                                    class="inline-block px-3.5 py-2 transition duration-300 border border-dashed text-black dark:text-white/70 border-platinum dark:border-greyBlack rounded-3xl md:px-5 md: md:py-2 hover:text-theme dark:hover:text-white">
+                                    HTML, CSS & Bootstrap (90%)
+                                </a>
+                                <a href="#"
+                                    class="inline-block px-3.5 py-2 transition duration-300 border border-dashed text-black dark:text-white/70 border-platinum dark:border-greyBlack rounded-3xl md:px-5 md: md:py-2 hover:text-theme dark:hover:text-white">
+                                    React, MERN (80%)
+                                </a>
+
+                                <a href="#"
+                                    class="inline-block px-3.5 py-2 transition duration-300 border border-dashed text-black dark:text-white/70 border-platinum dark:border-greyBlack rounded-3xl md:px-5 md: md:py-2 hover:text-theme dark:hover:text-white">
+                                    PHP-CodeIgniter (90%)
+                                </a>
+                                <a href="#"
+                                    class="inline-block px-3.5 py-2 transition duration-300 border border-dashed text-black dark:text-white/70 border-platinum dark:border-greyBlack rounded-3xl md:px-5 md: md:py-2 hover:text-theme dark:hover:text-white">
+                                    Core PHP (90%)
+                                </a>
+                                <a href="#"
+                                    class="inline-block px-3.5 py-2 transition duration-300 border border-dashed text-black dark:text-white/70 border-platinum dark:border-greyBlack rounded-3xl md:px-5 md: md:py-2 hover:text-theme dark:hover:text-white">
+                                    JavaScript (90%)
+                                </a>
+                                <a href="#"
+                                    class="inline-block px-3.5 py-2 transition duration-300 border border-dashed text-black dark:text-white/70 border-platinum dark:border-greyBlack rounded-3xl md:px-5 md: md:py-2 hover:text-theme dark:hover:text-white">
+                                    Angular (80%)
+                                </a>
+                                <a href="#"
+                                    class="inline-block px-3.5 py-2 transition duration-300 border border-dashed text-black dark:text-white/70 border-platinum dark:border-greyBlack rounded-3xl md:px-5 md: md:py-2 hover:text-theme dark:hover:text-white">
+                                    .NET Core (87%)
+                                </a>
+                                <a href="#"
+                                    class="inline-block px-3.5 py-2 transition duration-300 border border-dashed text-black dark:text-white/70 border-platinum dark:border-greyBlack rounded-3xl md:px-5 md: md:py-2 hover:text-theme dark:hover:text-white">
+                                    C# (85%)
+                                </a>
+
+                            </div>
+
+                            <ul class="grid mt-4 mb-10 text-sm lg:mt-6 md:grid-cols-2 gap-x-8 gap-y-3">
+                                <li class="flex items-center">
+                                    <span class="flex-[0_0_6rem]">Phone</span>
+                                    <span class="flex-[0_0_2rem]">:</span>
+                                    <span class="text-black dark:text-white">(+91) 89750 60633 </span>
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="flex-[0_0_6rem]">Email</span>
+                                    <span class="flex-[0_0_2rem]">:</span>
+                                    <span class="text-black dark:text-white">shaushete@gmail.com</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="flex-[0_0_6rem]">LinkedIn</span>
+                                    <span class="flex-[0_0_2rem]">:</span>
+                                    <a target="_blank" href="https://www.linkedin.com/in/shaurya-shete/"><span
+                                            class="text-black dark:text-white">linkedin.com/shaurya-shete</span></a>
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="flex-[0_0_6rem]">Github</span>
+                                    <span class="flex-[0_0_2rem]">:</span>
+                                    <a target="_blank" href="https://github.com/SHAU06"><span
+                                            class="text-black dark:text-white">github.com/SHAU06</span></a>
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="flex-[0_0_6rem]">Language</span>
+                                    <span class="flex-[0_0_2rem]">:</span>
+                                    <span class="text-black dark:text-white">English, Hindi, Marathi</span>
+                                </li>
+                            </ul>
+
+                            <ul class="grid grid-cols-2 gap-6 counters md:grid-cols-4 xl:gap-8">
+                                <li class="">
+                                    <div class="mb-1 text-2xl font-semibold md:text-3xl number text-theme 2xl:text-4xl">
+                                        <span>2</span>+
+                                    </div>
+                                    <div class="text-sm">Years Of Experience</div>
+                                </li>
+                                <li class="">
+                                    <div class="mb-1 text-2xl font-semibold md:text-3xl number text-theme 2xl:text-4xl">
+                                        <span>10</span>+
+                                    </div>
+                                    <div class="text-sm">Projects Handled</div>
+                                </li>
+                                <li class="">
+                                    <div class="mb-1 text-2xl font-semibold md:text-3xl number text-theme 2xl:text-4xl">
+                                        <span>6</span>+
+                                    </div>
+                                    <div class="text-sm">Satisfied Clients</div>
+                                </li>
+                                <li class="">
+                                    <div class="mb-1 text-2xl font-semibold md:text-3xl number text-theme 2xl:text-4xl">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="text-sm">Award Won</div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- About Me Section End -->
+
+                <!-- My Services Section Start -->
+                <div data-scroll-index="2" id="service"
+                    class="py-5 xl:py-3.5 max-w-content xl:max-2xl:max-w-50rem max-xl:mx-auto xl:ml-auto">
+
+                    <div
+                        class="px-5 py-8 md:p-8 bg-white dark:bg-nightBlack rounded-2xl service-section lg:p-10 2xl:p-13">
+                        <div
+                            class="inline-flex items-center gap-2 px-4 py-2 text-xs tracking-wide text-black dark:text-white border lg:px-5 section-name border-platinum dark:border-greyBlack200 rounded-4xl">
+                            <i class="fal fa-briefcase text-theme"></i>
+                            SERVICES
+                        </div>
+                        <div class="mb-8 mt-7 md:my-10 section-title">
+                            <h2
+                                class="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black dark:text-white leading-1.27">
+                                My <span class="font-semibold text-theme">Services</span>
+                            </h2>
+                            <p class="max-w-xl mt-4 md:mt-6 subtitle">
+                                I specialized in full-stack development, I turn complex problems into elegant, robust,
+                                and user-friendly solutions.
+                            </p>
+                        </div>
+
+                        <div class="grid gap-5 md:gap-6 service-card-wrapper sm:grid-cols-2 lg:gap-7 2xl:gap-8">
+                            <div
+                                class="relative p-5 transition duration-300 border py-7 md:p-7 card-item group border-platinum dark:border-metalBlack rounded-2xl xl:p-8 2xl:p-10 hover:border-theme">
+                                <div
+                                    class="absolute transition duration-300 md:top-10 icon right-6 top-7 md:right-8 group-hover:-rotate-45 lg:top-11">
+
+                                    <svg viewBox="0 0 33 32" class="fill-theme" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="45" zoomAndPan="magnify"
+                                        viewBox="0 0 30 30.000001" height="45" preserveAspectRatio="xMidYMid meet"
+                                        version="1.0">
+                                        <defs>
+                                            <clipPath id="d435873243">
+                                                <path
+                                                    d="M 0.484375 2.339844 L 29.515625 2.339844 L 29.515625 21 L 0.484375 21 Z M 0.484375 2.339844 "
+                                                    clip-rule="nonzero" />
+                                            </clipPath>
+                                        </defs>
+                                        <g clip-path="url(#d435873243)">
+                                            <path fill="#00bc91"
+                                                d="M 29.183594 20.640625 L 0.816406 20.640625 C 0.632812 20.640625 0.484375 20.492188 0.484375 20.308594 L 0.484375 2.679688 C 0.484375 2.496094 0.632812 2.347656 0.816406 2.347656 L 29.183594 2.347656 C 29.367188 2.347656 29.515625 2.496094 29.515625 2.679688 L 29.515625 20.308594 C 29.515625 20.492188 29.367188 20.640625 29.183594 20.640625 Z M 1.148438 19.976562 L 28.851562 19.976562 L 28.851562 3.011719 L 1.148438 3.011719 Z M 1.148438 19.976562 "
+                                                fill-opacity="1" fill-rule="nonzero" />
+                                        </g>
+                                        <path fill="#00bc91"
+                                            d="M 27.269531 18.730469 L 2.730469 18.730469 C 2.546875 18.730469 2.398438 18.578125 2.398438 18.394531 L 2.398438 4.59375 C 2.398438 4.410156 2.546875 4.261719 2.730469 4.261719 L 27.269531 4.261719 C 27.453125 4.261719 27.601562 4.410156 27.601562 4.59375 L 27.601562 18.394531 C 27.601562 18.578125 27.453125 18.730469 27.269531 18.730469 Z M 3.0625 18.0625 L 26.9375 18.0625 L 26.9375 4.925781 L 3.0625 4.925781 Z M 3.0625 18.0625 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 20.199219 26.6875 L 9.800781 26.6875 C 9.699219 26.6875 9.605469 26.640625 9.539062 26.5625 C 9.476562 26.484375 9.453125 26.378906 9.476562 26.28125 L 10.042969 23.851562 C 10.078125 23.699219 10.210938 23.59375 10.367188 23.59375 L 19.613281 23.59375 C 19.765625 23.59375 19.898438 23.699219 19.9375 23.847656 L 20.523438 26.277344 C 20.546875 26.378906 20.523438 26.480469 20.460938 26.5625 C 20.398438 26.640625 20.300781 26.6875 20.199219 26.6875 Z M 10.21875 26.023438 L 19.777344 26.023438 L 19.351562 24.257812 L 10.628906 24.257812 Z M 10.21875 26.023438 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 10.367188 24.257812 C 10.292969 24.257812 10.21875 24.234375 10.160156 24.1875 C 10.015625 24.070312 9.992188 23.863281 10.105469 23.71875 L 12.988281 20.101562 C 13.101562 19.960938 13.3125 19.933594 13.457031 20.050781 C 13.597656 20.164062 13.621094 20.375 13.507812 20.515625 L 10.625 24.132812 C 10.5625 24.214844 10.464844 24.257812 10.367188 24.257812 Z M 10.367188 24.257812 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 19.613281 24.257812 C 19.515625 24.257812 19.417969 24.214844 19.355469 24.132812 L 16.453125 20.519531 C 16.335938 20.375 16.359375 20.164062 16.503906 20.050781 C 16.644531 19.933594 16.855469 19.957031 16.96875 20.101562 L 19.871094 23.71875 C 19.988281 23.863281 19.964844 24.070312 19.820312 24.1875 C 19.761719 24.234375 19.6875 24.257812 19.613281 24.257812 Z M 19.613281 24.257812 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 27.269531 8.117188 L 2.730469 8.117188 C 2.546875 8.117188 2.398438 7.96875 2.398438 7.785156 C 2.398438 7.601562 2.546875 7.453125 2.730469 7.453125 L 27.269531 7.453125 C 27.453125 7.453125 27.601562 7.601562 27.601562 7.785156 C 27.601562 7.96875 27.453125 8.117188 27.269531 8.117188 Z M 27.269531 8.117188 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 4.113281 5.703125 L 5.289062 5.703125 L 5.289062 6.875 L 4.113281 6.875 Z M 4.113281 5.703125 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 6.378906 5.703125 L 7.554688 5.703125 L 7.554688 6.875 L 6.378906 6.875 Z M 6.378906 5.703125 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 8.644531 5.703125 L 9.816406 5.703125 L 9.816406 6.875 L 8.644531 6.875 Z M 8.644531 5.703125 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 16.710938 10.070312 L 4.617188 10.070312 C 4.433594 10.070312 4.285156 9.921875 4.285156 9.738281 C 4.285156 9.554688 4.433594 9.40625 4.617188 9.40625 L 16.710938 9.40625 C 16.894531 9.40625 17.042969 9.554688 17.042969 9.738281 C 17.042969 9.921875 16.894531 10.070312 16.710938 10.070312 Z M 16.710938 10.070312 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 16.710938 11.613281 L 4.617188 11.613281 C 4.433594 11.613281 4.285156 11.464844 4.285156 11.28125 C 4.285156 11.097656 4.433594 10.949219 4.617188 10.949219 L 16.710938 10.949219 C 16.894531 10.949219 17.042969 11.097656 17.042969 11.28125 C 17.042969 11.464844 16.894531 11.613281 16.710938 11.613281 Z M 16.710938 11.613281 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 14.058594 13.15625 L 4.617188 13.15625 C 4.433594 13.15625 4.285156 13.007812 4.285156 12.824219 C 4.285156 12.640625 4.433594 12.488281 4.617188 12.488281 L 14.058594 12.488281 C 14.242188 12.488281 14.390625 12.640625 14.390625 12.824219 C 14.390625 13.007812 14.242188 13.15625 14.058594 13.15625 Z M 14.058594 13.15625 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 16.710938 17.207031 L 4.703125 17.207031 C 4.519531 17.207031 4.367188 17.058594 4.367188 16.875 L 4.367188 14.460938 C 4.367188 14.277344 4.519531 14.128906 4.703125 14.128906 L 16.710938 14.128906 C 16.894531 14.128906 17.042969 14.277344 17.042969 14.460938 L 17.042969 16.875 C 17.042969 17.058594 16.894531 17.207031 16.710938 17.207031 Z M 5.035156 16.542969 L 16.378906 16.542969 L 16.378906 14.792969 L 5.035156 14.792969 Z M 5.035156 16.542969 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 20.425781 13.898438 C 20.335938 13.898438 20.246094 13.859375 20.179688 13.789062 L 18.699219 12.144531 C 18.585938 12.015625 18.585938 11.824219 18.699219 11.699219 L 20.179688 10.054688 C 20.300781 9.917969 20.511719 9.90625 20.648438 10.027344 C 20.785156 10.152344 20.796875 10.363281 20.675781 10.5 L 19.394531 11.921875 L 20.675781 13.34375 C 20.796875 13.480469 20.785156 13.691406 20.648438 13.8125 C 20.585938 13.871094 20.507812 13.898438 20.425781 13.898438 Z M 20.425781 13.898438 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 23.792969 13.898438 C 23.714844 13.898438 23.632812 13.871094 23.570312 13.8125 C 23.433594 13.691406 23.421875 13.480469 23.546875 13.34375 L 24.824219 11.921875 L 23.546875 10.5 C 23.421875 10.363281 23.433594 10.152344 23.570312 10.027344 C 23.707031 9.90625 23.917969 9.917969 24.039062 10.054688 L 25.519531 11.699219 C 25.632812 11.824219 25.632812 12.015625 25.519531 12.144531 L 24.039062 13.789062 C 23.976562 13.859375 23.882812 13.898438 23.792969 13.898438 Z M 23.792969 13.898438 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 21.269531 14.4375 C 21.230469 14.4375 21.191406 14.429688 21.152344 14.414062 C 20.980469 14.347656 20.894531 14.15625 20.960938 13.984375 L 22.640625 9.617188 C 22.707031 9.445312 22.898438 9.359375 23.070312 9.425781 C 23.242188 9.492188 23.328125 9.683594 23.261719 9.855469 L 21.582031 14.222656 C 21.53125 14.355469 21.402344 14.4375 21.269531 14.4375 Z M 21.269531 14.4375 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="text-5xl font-extrabold transition duration-300 md:text-6xl number lg:text-7xl text-greyBlack opacity-30 group-hover:opacity-100">
+                                    01
+                                </div>
+                                <h4 class="mt-5 mb-4 text-xl font-medium text-black dark:text-white xl:text-2xl">
+                                    Frontend Development
+                                </h4>
+                                <p>
+                                    Creating responsive, and user-friendly interfaces using the latest frontend
+                                    technologies like Angular, JavaScript, HTML, and CSS.
+                                </p>
+                            </div>
+                            <div
+                                class="relative p-5 transition duration-300 border py-7 md:p-7 card-item group border-platinum dark:border-metalBlack rounded-2xl xl:p-8 2xl:p-10 hover:border-theme">
+                                <div
+                                    class="absolute transition duration-300 md:top-10 icon right-6 top-7 md:right-8 group-hover:-rotate-45 lg:top-11">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="45" zoomAndPan="magnify" viewBox="0 0 30 30.000001" height="45"
+                                        preserveAspectRatio="xMidYMid meet" version="1.0">
+                                        <defs>
+                                            <clipPath id="0595f41ffa">
+                                                <path
+                                                    d="M 0.484375 4 L 29.515625 4 L 29.515625 24 L 0.484375 24 Z M 0.484375 4 "
+                                                    clip-rule="nonzero" />
+                                            </clipPath>
+                                            <clipPath id="ac2bec452b">
+                                                <path d="M 12 23 L 18 23 L 18 27.472656 L 12 27.472656 Z M 12 23 "
+                                                    clip-rule="nonzero" />
+                                            </clipPath>
+                                            <clipPath id="da8d107828">
+                                                <path d="M 10 27 L 20 27 L 20 27.472656 L 10 27.472656 Z M 10 27 "
+                                                    clip-rule="nonzero" />
+                                            </clipPath>
+                                            <clipPath id="8cd27a93f4">
+                                                <path d="M 12 1.34375 L 28 1.34375 L 28 9 L 12 9 Z M 12 1.34375 "
+                                                    clip-rule="nonzero" />
+                                            </clipPath>
+                                        </defs>
+                                        <g clip-path="url(#0595f41ffa)">
+                                            <path fill="#00bc91"
+                                                d="M 27.148438 23.734375 L 2.851562 23.734375 C 1.546875 23.734375 0.484375 22.675781 0.484375 21.367188 L 0.484375 6.757812 C 0.484375 5.449219 1.546875 4.390625 2.851562 4.390625 L 13.214844 4.390625 C 13.398438 4.390625 13.542969 4.535156 13.542969 4.71875 C 13.542969 4.898438 13.398438 5.046875 13.214844 5.046875 L 2.851562 5.046875 C 1.90625 5.046875 1.140625 5.8125 1.140625 6.757812 L 1.140625 21.367188 C 1.140625 22.3125 1.90625 23.078125 2.851562 23.078125 L 27.148438 23.078125 C 28.09375 23.078125 28.859375 22.3125 28.859375 21.367188 L 28.859375 6.757812 C 28.859375 5.8125 28.09375 5.046875 27.148438 5.046875 C 26.96875 5.046875 26.820312 4.898438 26.820312 4.71875 C 26.820312 4.535156 26.96875 4.390625 27.148438 4.390625 C 28.453125 4.390625 29.515625 5.449219 29.515625 6.757812 L 29.515625 21.367188 C 29.515625 22.675781 28.453125 23.734375 27.148438 23.734375 Z M 27.148438 23.734375 "
+                                                fill-opacity="1" fill-rule="nonzero" />
+                                        </g>
+                                        <g clip-path="url(#ac2bec452b)">
+                                            <path fill="#00bc91"
+                                                d="M 12.417969 27.679688 C 12.367188 27.679688 12.3125 27.664062 12.265625 27.640625 C 12.105469 27.554688 12.042969 27.355469 12.125 27.195312 C 12.761719 25.988281 12.761719 24.828125 12.125 23.554688 C 12.042969 23.390625 12.109375 23.195312 12.269531 23.113281 C 12.433594 23.03125 12.628906 23.097656 12.710938 23.261719 C 13.441406 24.722656 13.441406 26.109375 12.707031 27.503906 C 12.648438 27.613281 12.535156 27.679688 12.417969 27.679688 Z M 17.582031 27.679688 C 17.464844 27.679688 17.351562 27.613281 17.292969 27.503906 C 16.558594 26.109375 16.558594 24.722656 17.289062 23.261719 C 17.371094 23.097656 17.566406 23.03125 17.730469 23.113281 C 17.890625 23.195312 17.957031 23.390625 17.875 23.554688 C 17.238281 24.828125 17.238281 25.988281 17.875 27.195312 C 17.957031 27.355469 17.894531 27.554688 17.734375 27.640625 C 17.6875 27.664062 17.632812 27.679688 17.582031 27.679688 Z M 17.582031 27.679688 "
+                                                fill-opacity="1" fill-rule="nonzero" />
+                                        </g>
+                                        <g clip-path="url(#da8d107828)">
+                                            <path fill="#00bc91"
+                                                d="M 19.144531 27.679688 L 10.855469 27.679688 C 10.671875 27.679688 10.527344 27.53125 10.527344 27.347656 C 10.527344 27.167969 10.671875 27.019531 10.855469 27.019531 L 19.144531 27.019531 C 19.328125 27.019531 19.472656 27.167969 19.472656 27.347656 C 19.472656 27.53125 19.328125 27.679688 19.144531 27.679688 Z M 19.144531 27.679688 "
+                                                fill-opacity="1" fill-rule="nonzero" />
+                                        </g>
+                                        <g clip-path="url(#8cd27a93f4)">
+                                            <path fill="#00bc91"
+                                                d="M 20.183594 8.082031 C 16.09375 8.082031 12.886719 6.605469 12.886719 4.71875 C 12.886719 2.832031 16.09375 1.351562 20.183594 1.351562 C 24.273438 1.351562 27.476562 2.832031 27.476562 4.71875 C 27.476562 6.605469 24.273438 8.082031 20.183594 8.082031 Z M 20.183594 2.007812 C 18.371094 2.007812 16.667969 2.316406 15.390625 2.871094 C 14.21875 3.382812 13.542969 4.054688 13.542969 4.71875 C 13.542969 5.378906 14.21875 6.050781 15.390625 6.5625 C 16.667969 7.117188 18.371094 7.425781 20.183594 7.425781 C 21.992188 7.425781 23.695312 7.117188 24.972656 6.5625 C 26.148438 6.050781 26.820312 5.378906 26.820312 4.71875 C 26.820312 4.058594 26.148438 3.382812 24.972656 2.871094 C 23.695312 2.316406 21.992188 2.007812 20.183594 2.007812 Z M 20.183594 2.007812 "
+                                                fill-opacity="1" fill-rule="nonzero" />
+                                        </g>
+                                        <path fill="#00bc91"
+                                            d="M 20.183594 11.796875 C 16.09375 11.796875 12.886719 10.320312 12.886719 8.433594 C 12.886719 8.25 13.035156 8.105469 13.214844 8.105469 C 13.398438 8.105469 13.542969 8.25 13.542969 8.433594 C 13.542969 9.742188 16.210938 11.140625 20.183594 11.140625 C 24.152344 11.140625 26.820312 9.742188 26.820312 8.433594 C 26.820312 8.25 26.96875 8.105469 27.148438 8.105469 C 27.332031 8.105469 27.476562 8.25 27.476562 8.433594 C 27.476562 10.320312 24.273438 11.796875 20.183594 11.796875 Z M 20.183594 11.796875 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 20.183594 15.511719 C 16.09375 15.511719 12.886719 14.035156 12.886719 12.148438 C 12.886719 11.964844 13.035156 11.820312 13.214844 11.820312 C 13.398438 11.820312 13.542969 11.964844 13.542969 12.148438 C 13.542969 13.457031 16.210938 14.855469 20.183594 14.855469 C 24.152344 14.855469 26.820312 13.457031 26.820312 12.148438 C 26.820312 11.964844 26.96875 11.820312 27.148438 11.820312 C 27.332031 11.820312 27.476562 11.964844 27.476562 12.148438 C 27.476562 14.035156 24.273438 15.511719 20.183594 15.511719 Z M 20.183594 15.511719 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 13.214844 12.476562 C 13.035156 12.476562 12.886719 12.328125 12.886719 12.148438 L 12.886719 4.71875 C 12.886719 4.535156 13.035156 4.390625 13.214844 4.390625 C 13.398438 4.390625 13.542969 4.535156 13.542969 4.71875 L 13.542969 12.148438 C 13.542969 12.328125 13.398438 12.476562 13.214844 12.476562 Z M 13.214844 12.476562 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 27.148438 12.476562 C 26.96875 12.476562 26.820312 12.328125 26.820312 12.148438 L 26.820312 4.71875 C 26.820312 4.535156 26.96875 4.390625 27.148438 4.390625 C 27.332031 4.390625 27.476562 4.535156 27.476562 4.71875 L 27.476562 12.148438 C 27.476562 12.328125 27.332031 12.476562 27.148438 12.476562 Z M 27.148438 12.476562 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 5.515625 14.921875 C 5.441406 14.921875 5.367188 14.898438 5.308594 14.847656 L 3.015625 12.972656 C 2.941406 12.910156 2.894531 12.816406 2.894531 12.71875 C 2.894531 12.621094 2.941406 12.527344 3.015625 12.464844 L 5.308594 10.589844 C 5.449219 10.476562 5.65625 10.496094 5.769531 10.636719 C 5.882812 10.777344 5.863281 10.984375 5.722656 11.097656 L 3.742188 12.71875 L 5.722656 14.339844 C 5.863281 14.453125 5.882812 14.660156 5.769531 14.800781 C 5.703125 14.882812 5.609375 14.921875 5.515625 14.921875 Z M 5.515625 14.921875 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 9.65625 14.921875 C 9.558594 14.921875 9.464844 14.882812 9.398438 14.800781 C 9.285156 14.660156 9.304688 14.453125 9.445312 14.339844 L 11.425781 12.71875 L 9.445312 11.097656 C 9.304688 10.984375 9.285156 10.777344 9.398438 10.636719 C 9.515625 10.496094 9.722656 10.476562 9.863281 10.589844 L 12.152344 12.464844 C 12.230469 12.527344 12.273438 12.621094 12.273438 12.71875 C 12.273438 12.816406 12.230469 12.910156 12.152344 12.972656 L 9.863281 14.847656 C 9.800781 14.898438 9.726562 14.921875 9.65625 14.921875 Z M 9.65625 14.921875 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 7 15.230469 C 6.972656 15.230469 6.941406 15.226562 6.914062 15.222656 C 6.738281 15.171875 6.636719 14.992188 6.683594 14.820312 L 7.851562 10.449219 C 7.898438 10.273438 8.078125 10.171875 8.253906 10.21875 C 8.429688 10.265625 8.535156 10.445312 8.488281 10.621094 L 7.316406 14.988281 C 7.277344 15.136719 7.144531 15.230469 7 15.230469 Z M 7 15.230469 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 8.710938 18.105469 L 3.367188 18.105469 C 3.183594 18.105469 3.039062 17.957031 3.039062 17.777344 C 3.039062 17.59375 3.183594 17.449219 3.367188 17.449219 L 8.710938 17.449219 C 8.894531 17.449219 9.039062 17.59375 9.039062 17.777344 C 9.039062 17.957031 8.894531 18.105469 8.710938 18.105469 Z M 8.710938 18.105469 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 12.539062 18.105469 L 10.59375 18.105469 C 10.414062 18.105469 10.265625 17.957031 10.265625 17.777344 C 10.265625 17.59375 10.414062 17.449219 10.59375 17.449219 L 12.539062 17.449219 C 12.71875 17.449219 12.867188 17.59375 12.867188 17.777344 C 12.867188 17.957031 12.71875 18.105469 12.539062 18.105469 Z M 12.539062 18.105469 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 18.066406 18.105469 L 16.121094 18.105469 C 15.941406 18.105469 15.792969 17.957031 15.792969 17.777344 C 15.792969 17.59375 15.941406 17.449219 16.121094 17.449219 L 18.066406 17.449219 C 18.246094 17.449219 18.394531 17.59375 18.394531 17.777344 C 18.394531 17.957031 18.246094 18.105469 18.066406 18.105469 Z M 18.066406 18.105469 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 26.753906 18.105469 L 19.949219 18.105469 C 19.769531 18.105469 19.621094 17.957031 19.621094 17.777344 C 19.621094 17.59375 19.769531 17.449219 19.949219 17.449219 L 26.753906 17.449219 C 26.933594 17.449219 27.082031 17.59375 27.082031 17.777344 C 27.082031 17.957031 26.933594 18.105469 26.753906 18.105469 Z M 26.753906 18.105469 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 7.199219 20.519531 L 3.367188 20.519531 C 3.183594 20.519531 3.039062 20.371094 3.039062 20.191406 C 3.039062 20.007812 3.183594 19.863281 3.367188 19.863281 L 7.199219 19.863281 C 7.382812 19.863281 7.527344 20.007812 7.527344 20.191406 C 7.527344 20.371094 7.382812 20.519531 7.199219 20.519531 Z M 7.199219 20.519531 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 18.621094 20.519531 L 9.242188 20.519531 C 9.058594 20.519531 8.914062 20.371094 8.914062 20.191406 C 8.914062 20.007812 9.058594 19.863281 9.242188 19.863281 L 18.621094 19.863281 C 18.804688 19.863281 18.949219 20.007812 18.949219 20.191406 C 18.949219 20.371094 18.804688 20.519531 18.621094 20.519531 Z M 18.621094 20.519531 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 22.769531 20.519531 L 21.074219 20.519531 C 20.890625 20.519531 20.746094 20.371094 20.746094 20.191406 C 20.746094 20.007812 20.890625 19.863281 21.074219 19.863281 L 22.769531 19.863281 C 22.949219 19.863281 23.097656 20.007812 23.097656 20.191406 C 23.097656 20.371094 22.949219 20.519531 22.769531 20.519531 Z M 22.769531 20.519531 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 26.777344 20.519531 L 25.082031 20.519531 C 24.898438 20.519531 24.753906 20.371094 24.753906 20.191406 C 24.753906 20.007812 24.898438 19.863281 25.082031 19.863281 L 26.777344 19.863281 C 26.957031 19.863281 27.105469 20.007812 27.105469 20.191406 C 27.105469 20.371094 26.957031 20.519531 26.777344 20.519531 Z M 26.777344 20.519531 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 11.132812 8.261719 L 7.382812 8.261719 C 7.203125 8.261719 7.054688 8.117188 7.054688 7.933594 C 7.054688 7.753906 7.203125 7.605469 7.382812 7.605469 L 11.132812 7.605469 C 11.3125 7.605469 11.460938 7.753906 11.460938 7.933594 C 11.460938 8.117188 11.3125 8.261719 11.132812 8.261719 Z M 11.132812 8.261719 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 5.339844 8.261719 L 3.367188 8.261719 C 3.183594 8.261719 3.039062 8.117188 3.039062 7.933594 C 3.039062 7.753906 3.183594 7.605469 3.367188 7.605469 L 5.339844 7.605469 C 5.523438 7.605469 5.667969 7.753906 5.667969 7.933594 C 5.667969 8.117188 5.523438 8.261719 5.339844 8.261719 Z M 5.339844 8.261719 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="text-5xl font-extrabold transition duration-300 md:text-6xl number lg:text-7xl text-greyBlack opacity-30 group-hover:opacity-100">
+                                    02
+                                </div>
+                                <h4 class="mt-5 mb-4 text-xl font-medium text-black dark:text-white xl:text-2xl">
+                                    Backend Development
+                                </h4>
+                                <p>
+                                    Building robust and scalable backend systems using technologies like .NET, PHP, and
+                                    SQL to power seamless and efficient applications.
+                                </p>
+                            </div>
+                            <div
+                                class="relative p-5 transition duration-300 border py-7 md:p-7 card-item group border-platinum dark:border-metalBlack rounded-2xl xl:p-8 2xl:p-10 hover:border-theme">
+                                <div
+                                    class="absolute transition duration-300 md:top-10 icon right-6 top-7 md:right-8 group-hover:-rotate-45 lg:top-11">
+                                    <svg width="40" height="40" viewBox="0 0 32 31" class="fill-theme"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M31.3586 0.492502C31.2987 0.432719 31.2251 0.388514 31.1441 0.363749C31.0632 0.338985 30.9775 0.334415 30.8944 0.350439L25.0786 1.48138C23.2662 1.83313 21.6006 2.71933 20.2963 4.02588L14.5195 9.80262L13.7678 9.05075C13.6963 8.97916 13.6053 8.93014 13.5062 8.90977C13.4071 8.88939 13.3042 8.89855 13.2103 8.93612L5.81363 11.8906C5.75062 11.9158 5.69319 11.9532 5.64464 12.0006L4.15803 13.449C4.09591 13.5095 4.05003 13.5848 4.02463 13.6678C3.99922 13.7507 3.99509 13.8388 4.01263 13.9237C4.03016 14.0087 4.0688 14.0879 4.12498 14.1541C4.18115 14.2202 4.25307 14.2711 4.33409 14.3022L8.9895 16.0847L10.1156 17.2108L6.67576 18.6295C6.59712 18.662 6.52771 18.7134 6.47368 18.7791C6.41966 18.8449 6.38268 18.9229 6.36603 19.0063C6.34938 19.0898 6.35358 19.176 6.37824 19.2575C6.40291 19.3389 6.44729 19.413 6.50744 19.4731L12.3781 25.3438C12.4751 25.4408 12.6066 25.4953 12.7437 25.4953C12.7777 25.4953 12.8117 25.4919 12.8451 25.4854C12.9285 25.4687 13.0065 25.4316 13.0722 25.3775C13.1379 25.3234 13.1893 25.254 13.2218 25.1753L14.6403 21.7357L15.7159 22.8113L17.4981 27.4663C17.5291 27.5474 17.58 27.6194 17.6461 27.6756C17.7123 27.7318 17.7915 27.7705 17.8765 27.788C17.9108 27.795 17.9458 27.7986 17.9808 27.7986C18.0499 27.7986 18.1182 27.7848 18.1818 27.7579C18.2454 27.7311 18.303 27.6918 18.3512 27.6424L19.7997 26.1556C19.8471 26.1071 19.8844 26.0497 19.9095 25.9866L22.8642 18.5901C22.9017 18.4962 22.9109 18.3933 22.8905 18.2942C22.8702 18.1952 22.8212 18.1042 22.7497 18.0327L22.0487 17.3317L27.8259 11.5545C29.1317 10.2483 30.0177 8.58187 30.3702 6.76883L31.5007 0.956895C31.5168 0.873772 31.5122 0.78797 31.4875 0.707006C31.4627 0.626043 31.4184 0.55239 31.3586 0.492502ZM6.29266 12.8129L13.2776 10.023L13.7883 10.5338L9.24644 15.0757L5.4588 13.6255L6.29266 12.8129ZM13.143 19.2245C13.131 19.2293 13.1193 19.2345 13.108 19.24L12.1024 19.7356L12.6 18.7344C12.605 18.7247 12.6093 18.7146 12.6135 18.7043L13.653 16.6186L16.7723 15.0696L15.2325 18.1973L13.143 19.2245ZM12.5613 24.0644L7.78667 19.29L10.9053 18.0039L11.5086 18.6071L10.4953 20.6458C10.4471 20.7426 10.4304 20.8521 10.4478 20.9589C10.4651 21.0656 10.5155 21.1643 10.5919 21.2408C10.6267 21.2748 10.6662 21.3036 10.7092 21.3264C10.7185 21.3315 10.7274 21.3365 10.7369 21.3411C10.7784 21.3613 10.8225 21.3758 10.8679 21.3842C10.8751 21.3855 10.8822 21.3853 10.8895 21.3863C10.9122 21.3901 10.9352 21.3923 10.9582 21.393C10.9743 21.393 10.9902 21.389 11.0063 21.3875C11.0205 21.3862 11.0343 21.3853 11.0484 21.3828C11.0963 21.3751 11.1429 21.3606 11.1867 21.3398L13.233 20.3315L13.8472 20.9459L12.5613 24.0644ZM21.7775 18.523L18.9874 25.5076L18.1747 26.3416L16.7526 22.6276L21.3174 18.0629L21.7775 18.523ZM27.094 10.8238L16.1421 21.7758L14.2155 19.8497L15.8469 19.0476C15.9492 18.9972 16.0321 18.9143 16.0825 18.812L18.375 14.1549C18.4228 14.0579 18.4389 13.9484 18.4212 13.8417C18.4035 13.735 18.3527 13.6366 18.2761 13.5603C18.1996 13.484 18.101 13.4336 17.9943 13.4162C17.8875 13.3988 17.7781 13.4153 17.6812 13.4634L13.0376 15.7696C12.9366 15.8196 12.8548 15.9012 12.8046 16.002L11.994 17.6285L10.0755 15.709L21.0274 4.75707C21.3452 4.44074 21.6883 4.15083 22.0532 3.89024L27.9601 9.79715C27.6996 10.1622 27.4099 10.5055 27.094 10.8238ZM29.3549 6.57089C29.1962 7.38401 28.916 8.16858 28.5235 8.89821L22.9519 3.32659C23.6808 2.93485 24.4644 2.65502 25.2765 2.49651L30.3389 1.512L29.3549 6.57089Z" />
+                                        <path
+                                            d="M22.4563 6.66505C21.8248 6.66495 21.2129 6.88381 20.7247 7.28433C20.2365 7.68485 19.9023 8.24225 19.7791 8.86155C19.6558 9.48086 19.7511 10.1237 20.0487 10.6807C20.3463 11.2376 20.8278 11.6741 21.4111 11.9158C21.9945 12.1575 22.6436 12.1895 23.2479 12.0062C23.8522 11.823 24.3742 11.4359 24.7251 10.9109C25.076 10.3859 25.2339 9.75546 25.1721 9.12705C25.1102 8.49863 24.8324 7.9111 24.3859 7.46457C24.1331 7.21035 23.8324 7.00879 23.5012 6.87155C23.17 6.73432 22.8148 6.66413 22.4563 6.66505ZM23.6547 10.593C23.4177 10.8301 23.1156 10.9915 22.7868 11.0569C22.458 11.1224 22.1171 11.0888 21.8074 10.9605C21.4976 10.8322 21.2328 10.6149 21.0466 10.3362C20.8603 10.0574 20.7609 9.72964 20.7609 9.39436C20.7609 9.05909 20.8603 8.73134 21.0466 8.45257C21.2328 8.1738 21.4976 7.95653 21.8074 7.82823C22.1171 7.69993 22.458 7.66637 22.7868 7.73179C23.1156 7.79721 23.4177 7.95867 23.6547 8.19575C23.8134 8.35243 23.9394 8.53905 24.0255 8.74481C24.1115 8.95057 24.1557 9.17136 24.1557 9.39436C24.1557 9.61737 24.1115 9.83816 24.0255 10.0439C23.9394 10.2497 23.8134 10.4363 23.6547 10.593Z" />
+                                        <path
+                                            d="M6.6209 26.0877L8.38254 24.3262C8.43055 24.2782 8.46863 24.2212 8.49462 24.1585C8.5206 24.0958 8.53397 24.0285 8.53397 23.9606C8.53397 23.8927 8.5206 23.8255 8.49462 23.7628C8.46864 23.7 8.43055 23.643 8.38254 23.595C8.33453 23.547 8.27753 23.5089 8.21481 23.483C8.15208 23.457 8.08485 23.4436 8.01695 23.4436C7.94905 23.4436 7.88182 23.457 7.81909 23.483C7.75636 23.5089 7.69937 23.547 7.65136 23.595L5.88971 25.3565C5.8417 25.4045 5.80362 25.4615 5.77764 25.5242C5.75165 25.587 5.73828 25.6542 5.73828 25.7221C5.73828 25.79 5.75165 25.8572 5.77764 25.92C5.80362 25.9827 5.8417 26.0397 5.88972 26.0877C5.93773 26.1357 5.99472 26.1738 6.05745 26.1998C6.12018 26.2258 6.18741 26.2391 6.25531 26.2391C6.3232 26.2391 6.39044 26.2258 6.45316 26.1998C6.51589 26.1738 6.57289 26.1357 6.6209 26.0877Z" />
+                                        <path
+                                            d="M4.57839 26.6672L4.07544 27.17C3.97921 27.2672 3.9254 27.3985 3.92578 27.5353C3.92617 27.6721 3.98072 27.8031 4.0775 27.8998C4.17428 27.9964 4.3054 28.0508 4.44217 28.051C4.57894 28.0512 4.71022 27.9972 4.80728 27.9008L5.30954 27.3987C5.40556 27.3016 5.45925 27.1704 5.45886 27.0338C5.45848 26.8971 5.40406 26.7662 5.30749 26.6696C5.21092 26.573 5.08004 26.5185 4.94344 26.5181C4.80683 26.5176 4.6756 26.5712 4.57839 26.6672Z" />
+                                        <path
+                                            d="M3.07636 28.1697L2.28425 28.9618C2.18729 29.0588 2.13281 29.1903 2.13281 29.3274C2.13281 29.4645 2.18728 29.596 2.28424 29.693C2.38121 29.79 2.51271 29.8444 2.64984 29.8444C2.78696 29.8444 2.91847 29.79 3.01543 29.693L3.80754 28.9012C3.85558 28.8532 3.89368 28.7962 3.91969 28.7335C3.94569 28.6707 3.95908 28.6035 3.9591 28.5356C3.95911 28.4677 3.94575 28.4004 3.91978 28.3377C3.8938 28.2749 3.85572 28.2179 3.80771 28.1699C3.7597 28.1218 3.7027 28.0837 3.63997 28.0577C3.57723 28.0317 3.50998 28.0183 3.44207 28.0183C3.37416 28.0183 3.30691 28.0317 3.24416 28.0576C3.18141 28.0836 3.12439 28.1217 3.07636 28.1697Z" />
+                                        <path
+                                            d="M2.74661 25.2089L5.16605 22.7894C5.21406 22.7413 5.25215 22.6844 5.27813 22.6216C5.30411 22.5589 5.31749 22.4917 5.31749 22.4238C5.31749 22.3559 5.30411 22.2886 5.27813 22.2259C5.25215 22.1632 5.21406 22.1062 5.16605 22.0582C5.11804 22.0102 5.06105 21.9721 4.99832 21.9461C4.93559 21.9201 4.86836 21.9067 4.80046 21.9067C4.73256 21.9067 4.66533 21.9201 4.6026 21.9461C4.53987 21.9721 4.48288 22.0102 4.43487 22.0582L2.01543 24.4778C1.96727 24.5257 1.92904 24.5827 1.90293 24.6455C1.87682 24.7083 1.86335 24.7756 1.86328 24.8436C1.86321 24.9115 1.87656 24.9789 1.90254 25.0417C1.92853 25.1045 1.96664 25.1616 2.01471 25.2097C2.06278 25.2577 2.11986 25.2959 2.18268 25.3218C2.2455 25.3478 2.31283 25.3612 2.38081 25.3611C2.44879 25.361 2.5161 25.3476 2.57886 25.3214C2.64163 25.2953 2.69864 25.2571 2.74661 25.2089Z" />
+                                        <path
+                                            d="M0.98704 25.5052L0.573307 25.9189C0.476346 26.0159 0.421875 26.1474 0.421875 26.2845C0.421875 26.4216 0.476348 26.5531 0.573309 26.6501C0.67027 26.7471 0.801778 26.8015 0.938901 26.8015C1.07603 26.8015 1.20753 26.7471 1.30449 26.6501L1.71822 26.2364C1.76639 26.1884 1.80462 26.1314 1.83073 26.0686C1.85683 26.0058 1.87031 25.9385 1.87037 25.8706C1.87044 25.8026 1.8571 25.7353 1.83111 25.6724C1.80513 25.6096 1.76701 25.5525 1.71894 25.5045C1.67087 25.4564 1.61379 25.4183 1.55097 25.3923C1.48815 25.3663 1.42082 25.353 1.35284 25.353C1.28486 25.3531 1.21756 25.3666 1.15479 25.3927C1.09202 25.4188 1.03502 25.457 0.98704 25.5052Z" />
+                                        <path
+                                            d="M8.74403 26.7083L7.9334 27.5191C7.88524 27.5671 7.84701 27.6241 7.8209 27.6869C7.79479 27.7496 7.78132 27.8169 7.78125 27.8849C7.78118 27.9529 7.79452 28.0202 7.82051 28.083C7.84649 28.1459 7.88461 28.2029 7.93268 28.251C7.98075 28.2991 8.03783 28.3372 8.10065 28.3632C8.16347 28.3892 8.2308 28.4025 8.29878 28.4024C8.36676 28.4024 8.43407 28.3889 8.49683 28.3628C8.5596 28.3367 8.61661 28.2984 8.66458 28.2503L9.47521 27.4395C9.52338 27.3915 9.56161 27.3345 9.58772 27.2717C9.61382 27.209 9.6273 27.1417 9.62736 27.0737C9.62743 27.0057 9.61409 26.9384 9.5881 26.8756C9.56212 26.8127 9.524 26.7557 9.47593 26.7076C9.42786 26.6595 9.37078 26.6214 9.30796 26.5954C9.24514 26.5694 9.17781 26.5561 9.10983 26.5562C9.04185 26.5562 8.97455 26.5697 8.91178 26.5958C8.84901 26.6219 8.79201 26.6602 8.74403 26.7083Z" />
+                                        <path
+                                            d="M6.94946 28.5025L6.09675 29.3554C6.04874 29.4034 6.01065 29.4604 5.98467 29.5231C5.95869 29.5858 5.94531 29.6531 5.94531 29.721C5.94531 29.7889 5.95869 29.8561 5.98467 29.9188C6.01065 29.9816 6.04874 30.0386 6.09675 30.0866C6.14476 30.1346 6.20175 30.1727 6.26448 30.1986C6.32721 30.2246 6.39444 30.238 6.46234 30.238C6.53024 30.238 6.59747 30.2246 6.6602 30.1986C6.72293 30.1727 6.77992 30.1346 6.82793 30.0866L7.68064 29.2337C7.72865 29.1857 7.76674 29.1287 7.79272 29.066C7.8187 29.0032 7.83208 28.936 7.83208 28.8681C7.83208 28.8002 7.8187 28.733 7.79272 28.6702C7.76674 28.6075 7.72865 28.5505 7.68064 28.5025C7.63263 28.4545 7.57564 28.4164 7.51291 28.3904C7.45018 28.3644 7.38295 28.3511 7.31505 28.3511C7.24716 28.3511 7.17992 28.3644 7.1172 28.3904C7.05447 28.4164 6.99747 28.4545 6.94946 28.5025Z" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="text-5xl font-extrabold transition duration-300 md:text-6xl number lg:text-7xl text-greyBlack opacity-30 group-hover:opacity-100">
+                                    03
+                                </div>
+                                <h4 class="mt-5 mb-4 text-xl font-medium text-black dark:text-white xl:text-2xl">
+                                    Maintenance & Support
+                                </h4>
+                                <p>
+                                    Ensuring optimal performance and reliability with comprehensive maintenance and
+                                    support for your websites and applications.
+                                </p>
+                            </div>
+                            <div
+                                class="relative p-5 transition duration-300 border py-7 md:p-7 card-item group border-platinum dark:border-metalBlack rounded-2xl xl:p-8 2xl:p-10 hover:border-theme">
+                                <div
+                                    class="absolute transition duration-300 md:top-10 icon right-6 top-7 md:right-8 group-hover:-rotate-45 lg:top-11">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="50" zoomAndPan="magnify" viewBox="0 0 37.5 37.499999" height="50"
+                                        preserveAspectRatio="xMidYMid meet" version="1.0">
+                                        <defs>
+                                            <clipPath id="c3bcecaa99">
+                                                <path d="M 21 15 L 37 15 L 37 31.410156 L 21 31.410156 Z M 21 15 "
+                                                    clip-rule="nonzero" />
+                                            </clipPath>
+                                            <clipPath id="41fb1aae68">
+                                                <path d="M 0 5.503906 L 30 5.503906 L 30 28 L 0 28 Z M 0 5.503906 "
+                                                    clip-rule="nonzero" />
+                                            </clipPath>
+                                        </defs>
+                                        <g clip-path="url(#c3bcecaa99)">
+                                            <path fill="#00bc91"
+                                                d="M 30.4375 31.492188 L 27.675781 31.492188 C 27.433594 31.492188 27.28125 31.371094 27.222656 31.132812 L 26.988281 30.148438 C 25.484375 29.972656 24.484375 29.003906 24.066406 28.507812 L 23.125 28.835938 C 23.019531 28.875 22.914062 28.875 22.808594 28.832031 C 22.703125 28.792969 22.625 28.726562 22.570312 28.628906 L 22.015625 27.671875 C 21.953125 27.5625 21.9375 27.445312 21.972656 27.320312 C 22.003906 27.195312 22.078125 27.101562 22.1875 27.035156 C 22.300781 26.972656 22.417969 26.957031 22.542969 26.988281 C 22.667969 27.023438 22.761719 27.09375 22.824219 27.207031 L 23.183594 27.828125 L 24.074219 27.519531 C 24.300781 27.4375 24.480469 27.5 24.613281 27.699219 C 24.621094 27.714844 25.644531 29.191406 27.378906 29.246094 C 27.613281 29.253906 27.761719 29.371094 27.816406 29.605469 L 28.046875 30.558594 L 30.070312 30.558594 L 30.296875 29.605469 C 30.351562 29.371094 30.5 29.253906 30.738281 29.246094 C 32.484375 29.191406 33.492188 27.714844 33.5 27.699219 C 33.636719 27.5 33.816406 27.441406 34.042969 27.519531 L 34.933594 27.832031 L 35.898438 26.15625 L 35.125 25.5 C 35.035156 25.421875 34.980469 25.328125 34.964844 25.210938 C 34.949219 25.09375 34.972656 24.988281 35.035156 24.890625 C 35.652344 23.945312 35.234375 22.179688 35.019531 21.578125 C 34.949219 21.382812 34.992188 21.214844 35.148438 21.078125 L 35.898438 20.390625 L 34.914062 18.691406 L 33.910156 19.101562 C 33.792969 19.148438 33.675781 19.148438 33.558594 19.101562 C 33.445312 19.054688 33.359375 18.976562 33.308594 18.863281 C 32.652344 17.425781 30.652344 17.289062 30.628906 17.289062 C 30.414062 17.277344 30.273438 17.164062 30.210938 16.957031 L 29.902344 15.945312 L 29.054688 15.945312 C 28.925781 15.945312 28.816406 15.898438 28.726562 15.808594 C 28.636719 15.714844 28.589844 15.605469 28.589844 15.476562 C 28.589844 15.347656 28.636719 15.238281 28.726562 15.148438 C 28.816406 15.058594 28.925781 15.011719 29.054688 15.011719 L 30.25 15.011719 C 30.480469 15.011719 30.628906 15.121094 30.695312 15.34375 L 31.015625 16.394531 C 31.671875 16.492188 33.144531 16.847656 33.9375 18.078125 L 34.933594 17.671875 C 35.042969 17.628906 35.152344 17.625 35.261719 17.664062 C 35.371094 17.703125 35.453125 17.769531 35.511719 17.871094 L 36.894531 20.25 C 36.949219 20.34375 36.96875 20.445312 36.953125 20.554688 C 36.933594 20.664062 36.886719 20.753906 36.804688 20.828125 L 35.988281 21.566406 C 36.179688 22.226562 36.539062 23.824219 36.011719 25.03125 L 36.792969 25.695312 C 36.878906 25.769531 36.929688 25.859375 36.949219 25.972656 C 36.96875 26.082031 36.953125 26.1875 36.894531 26.28125 L 35.546875 28.628906 C 35.492188 28.726562 35.414062 28.792969 35.308594 28.832031 C 35.203125 28.875 35.097656 28.875 34.992188 28.835938 L 34.050781 28.507812 C 33.628906 29.003906 32.628906 29.972656 31.125 30.148438 L 30.890625 31.132812 C 30.835938 31.371094 30.683594 31.492188 30.4375 31.492188 Z M 30.4375 31.492188 "
+                                                fill-opacity="1" fill-rule="nonzero" />
+                                        </g>
+                                        <path fill="#00bc91"
+                                            d="M 26.167969 25.15625 C 26.039062 25.15625 25.925781 25.113281 25.835938 25.019531 L 24.421875 23.601562 C 24.328125 23.511719 24.285156 23.402344 24.285156 23.273438 C 24.285156 23.144531 24.328125 23.035156 24.421875 22.941406 L 25.878906 21.480469 C 25.96875 21.386719 26.078125 21.339844 26.210938 21.339844 C 26.339844 21.339844 26.449219 21.386719 26.542969 21.476562 C 26.632812 21.570312 26.679688 21.679688 26.679688 21.808594 C 26.679688 21.9375 26.632812 22.050781 26.539062 22.140625 L 25.410156 23.273438 L 26.496094 24.363281 C 26.644531 24.507812 26.675781 24.679688 26.597656 24.871094 C 26.515625 25.0625 26.375 25.15625 26.167969 25.15625 Z M 26.167969 25.15625 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 31.949219 25.15625 C 31.742188 25.15625 31.597656 25.0625 31.519531 24.871094 C 31.4375 24.679688 31.472656 24.507812 31.621094 24.363281 L 32.707031 23.273438 L 31.578125 22.140625 C 31.484375 22.050781 31.441406 21.9375 31.441406 21.808594 C 31.441406 21.679688 31.484375 21.570312 31.578125 21.480469 C 31.667969 21.390625 31.777344 21.34375 31.90625 21.34375 C 32.035156 21.34375 32.144531 21.390625 32.238281 21.480469 L 33.695312 22.941406 C 33.785156 23.035156 33.832031 23.144531 33.832031 23.273438 C 33.832031 23.402344 33.785156 23.511719 33.695312 23.601562 L 32.28125 25.019531 C 32.1875 25.113281 32.078125 25.15625 31.949219 25.15625 Z M 31.949219 25.15625 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 27.980469 27.128906 C 27.933594 27.128906 27.886719 27.121094 27.839844 27.105469 C 27.714844 27.066406 27.625 26.992188 27.566406 26.875 C 27.507812 26.761719 27.496094 26.644531 27.535156 26.519531 L 29.691406 19.699219 C 29.730469 19.578125 29.804688 19.484375 29.921875 19.425781 C 30.035156 19.367188 30.152344 19.355469 30.277344 19.394531 C 30.398438 19.433594 30.492188 19.511719 30.550781 19.625 C 30.609375 19.738281 30.621094 19.859375 30.582031 19.980469 L 28.425781 26.800781 C 28.355469 27.019531 28.207031 27.128906 27.980469 27.128906 Z M 27.980469 27.128906 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <g clip-path="url(#41fb1aae68)">
+                                            <path fill="#00bc91"
+                                                d="M 22.421875 27.90625 L 1.273438 27.90625 C 1.101562 27.90625 0.941406 27.875 0.785156 27.8125 C 0.628906 27.746094 0.492188 27.65625 0.375 27.535156 C 0.253906 27.417969 0.164062 27.28125 0.0976562 27.125 C 0.03125 26.972656 0 26.808594 0 26.640625 L 0 6.78125 C 0 6.613281 0.03125 6.453125 0.0976562 6.296875 C 0.160156 6.140625 0.253906 6.003906 0.371094 5.886719 C 0.492188 5.769531 0.628906 5.675781 0.785156 5.613281 C 0.9375 5.546875 1.101562 5.515625 1.269531 5.515625 L 28.253906 5.515625 C 28.421875 5.515625 28.585938 5.546875 28.738281 5.613281 C 28.894531 5.675781 29.03125 5.769531 29.152344 5.886719 C 29.269531 6.003906 29.363281 6.140625 29.425781 6.296875 C 29.492188 6.453125 29.523438 6.613281 29.523438 6.78125 L 29.523438 15.476562 C 29.523438 15.605469 29.476562 15.714844 29.386719 15.808594 C 29.296875 15.898438 29.1875 15.945312 29.058594 15.945312 L 28.210938 15.945312 L 27.902344 16.957031 C 27.839844 17.167969 27.699219 17.277344 27.480469 17.289062 C 27.460938 17.289062 25.460938 17.425781 24.804688 18.863281 C 24.753906 18.976562 24.667969 19.054688 24.554688 19.101562 C 24.4375 19.148438 24.320312 19.148438 24.203125 19.101562 L 23.199219 18.691406 L 22.210938 20.390625 L 22.96875 21.074219 C 23.121094 21.214844 23.164062 21.382812 23.097656 21.578125 C 22.882812 22.179688 22.464844 23.949219 23.078125 24.886719 C 23.144531 24.988281 23.167969 25.09375 23.148438 25.210938 C 23.132812 25.328125 23.078125 25.421875 22.988281 25.5 L 22.21875 26.15625 L 22.824219 27.207031 C 22.867188 27.28125 22.886719 27.359375 22.886719 27.441406 C 22.886719 27.523438 22.867188 27.601562 22.824219 27.671875 C 22.78125 27.746094 22.726562 27.800781 22.652344 27.84375 C 22.582031 27.886719 22.503906 27.90625 22.421875 27.90625 Z M 1.273438 6.449219 C 1.179688 6.445312 1.097656 6.480469 1.03125 6.542969 C 0.964844 6.609375 0.933594 6.6875 0.933594 6.78125 L 0.933594 26.640625 C 0.933594 26.734375 0.964844 26.8125 1.03125 26.878906 C 1.097656 26.941406 1.175781 26.976562 1.269531 26.976562 L 21.617188 26.976562 L 21.21875 26.285156 C 21.164062 26.1875 21.144531 26.082031 21.164062 25.972656 C 21.183594 25.859375 21.234375 25.769531 21.320312 25.695312 L 22.101562 25.03125 C 21.574219 23.820312 21.929688 22.226562 22.121094 21.566406 L 21.308594 20.828125 C 21.226562 20.753906 21.175781 20.664062 21.160156 20.554688 C 21.144531 20.445312 21.164062 20.34375 21.21875 20.246094 L 22.597656 17.871094 C 22.65625 17.769531 22.742188 17.699219 22.851562 17.664062 C 22.960938 17.625 23.070312 17.628906 23.179688 17.671875 L 24.175781 18.078125 C 24.96875 16.851562 26.441406 16.492188 27.097656 16.394531 L 27.417969 15.339844 C 27.484375 15.121094 27.632812 15.011719 27.863281 15.011719 L 28.589844 15.011719 L 28.589844 6.78125 C 28.589844 6.6875 28.554688 6.609375 28.492188 6.546875 C 28.425781 6.480469 28.347656 6.449219 28.253906 6.449219 Z M 1.273438 6.449219 "
+                                                fill-opacity="1" fill-rule="nonzero" />
+                                        </g>
+                                        <path fill="#00bc91"
+                                            d="M 29.058594 12.480469 L 0.464844 12.480469 C 0.335938 12.480469 0.226562 12.433594 0.136719 12.34375 C 0.046875 12.25 0 12.140625 0 12.011719 C 0 11.882812 0.046875 11.773438 0.136719 11.683594 C 0.226562 11.59375 0.335938 11.546875 0.464844 11.546875 L 29.058594 11.546875 C 29.1875 11.546875 29.296875 11.59375 29.386719 11.683594 C 29.476562 11.773438 29.523438 11.882812 29.523438 12.011719 C 29.523438 12.140625 29.476562 12.25 29.386719 12.34375 C 29.296875 12.433594 29.1875 12.480469 29.058594 12.480469 Z M 29.058594 12.480469 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 3.714844 10.585938 C 3.492188 10.585938 3.277344 10.542969 3.070312 10.457031 C 2.863281 10.371094 2.683594 10.25 2.523438 10.089844 C 2.367188 9.933594 2.246094 9.75 2.160156 9.542969 C 2.074219 9.335938 2.03125 9.121094 2.03125 8.898438 C 2.03125 8.671875 2.074219 8.457031 2.160156 8.25 C 2.246094 8.042969 2.367188 7.863281 2.527344 7.703125 C 2.6875 7.546875 2.867188 7.425781 3.074219 7.339844 C 3.28125 7.253906 3.496094 7.210938 3.722656 7.210938 C 3.945312 7.210938 4.160156 7.253906 4.367188 7.339844 C 4.574219 7.425781 4.757812 7.546875 4.914062 7.707031 C 5.074219 7.863281 5.195312 8.046875 5.28125 8.253906 C 5.367188 8.460938 5.410156 8.675781 5.410156 8.898438 C 5.410156 9.125 5.363281 9.339844 5.277344 9.546875 C 5.191406 9.753906 5.070312 9.933594 4.910156 10.09375 C 4.753906 10.25 4.570312 10.375 4.363281 10.460938 C 4.15625 10.546875 3.941406 10.585938 3.714844 10.585938 Z M 3.714844 8.144531 C 3.507812 8.144531 3.332031 8.21875 3.183594 8.367188 C 3.035156 8.515625 2.964844 8.691406 2.964844 8.902344 C 2.964844 9.109375 3.039062 9.289062 3.1875 9.433594 C 3.335938 9.582031 3.511719 9.65625 3.722656 9.65625 C 3.929688 9.65625 4.109375 9.582031 4.253906 9.433594 C 4.402344 9.285156 4.476562 9.109375 4.476562 8.898438 C 4.476562 8.691406 4.402344 8.511719 4.253906 8.363281 C 4.105469 8.21875 3.925781 8.144531 3.714844 8.144531 Z M 3.714844 8.144531 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 9.273438 10.585938 C 9.050781 10.585938 8.832031 10.542969 8.628906 10.457031 C 8.421875 10.371094 8.238281 10.25 8.082031 10.089844 C 7.921875 9.933594 7.800781 9.75 7.714844 9.542969 C 7.628906 9.335938 7.585938 9.121094 7.585938 8.898438 C 7.589844 8.671875 7.632812 8.457031 7.71875 8.25 C 7.804688 8.042969 7.925781 7.863281 8.082031 7.703125 C 8.242188 7.546875 8.425781 7.425781 8.632812 7.339844 C 8.839844 7.253906 9.054688 7.210938 9.277344 7.210938 C 9.5 7.210938 9.71875 7.253906 9.921875 7.339844 C 10.128906 7.425781 10.3125 7.546875 10.472656 7.707031 C 10.628906 7.863281 10.75 8.046875 10.835938 8.253906 C 10.921875 8.460938 10.964844 8.675781 10.964844 8.898438 C 10.964844 9.125 10.921875 9.339844 10.835938 9.546875 C 10.75 9.753906 10.625 9.933594 10.46875 10.09375 C 10.308594 10.25 10.125 10.375 9.917969 10.460938 C 9.710938 10.546875 9.496094 10.585938 9.273438 10.585938 Z M 9.273438 8.144531 C 9.066406 8.144531 8.886719 8.21875 8.738281 8.367188 C 8.59375 8.515625 8.519531 8.691406 8.519531 8.902344 C 8.519531 9.109375 8.59375 9.289062 8.742188 9.433594 C 8.890625 9.582031 9.070312 9.65625 9.277344 9.65625 C 9.484375 9.65625 9.664062 9.582031 9.8125 9.433594 C 9.957031 9.285156 10.03125 9.109375 10.03125 8.898438 C 10.03125 8.691406 9.957031 8.511719 9.808594 8.363281 C 9.660156 8.21875 9.480469 8.144531 9.273438 8.144531 Z M 9.273438 8.144531 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 14.828125 10.585938 C 14.605469 10.585938 14.390625 10.542969 14.183594 10.457031 C 13.976562 10.371094 13.792969 10.25 13.636719 10.089844 C 13.480469 9.933594 13.355469 9.75 13.273438 9.542969 C 13.1875 9.335938 13.144531 9.121094 13.144531 8.898438 C 13.144531 8.671875 13.1875 8.457031 13.273438 8.25 C 13.359375 8.042969 13.480469 7.863281 13.640625 7.703125 C 13.796875 7.546875 13.980469 7.425781 14.1875 7.339844 C 14.394531 7.253906 14.609375 7.210938 14.835938 7.210938 C 15.058594 7.210938 15.273438 7.253906 15.480469 7.339844 C 15.6875 7.425781 15.871094 7.546875 16.027344 7.707031 C 16.1875 7.863281 16.308594 8.046875 16.394531 8.253906 C 16.480469 8.460938 16.519531 8.675781 16.519531 8.898438 C 16.519531 9.125 16.476562 9.339844 16.390625 9.546875 C 16.304688 9.753906 16.183594 9.933594 16.023438 10.09375 C 15.867188 10.25 15.683594 10.375 15.476562 10.460938 C 15.269531 10.546875 15.054688 10.585938 14.828125 10.585938 Z M 14.828125 8.144531 C 14.621094 8.144531 14.441406 8.21875 14.296875 8.367188 C 14.148438 8.515625 14.074219 8.691406 14.078125 8.902344 C 14.078125 9.109375 14.152344 9.289062 14.300781 9.433594 C 14.445312 9.582031 14.625 9.65625 14.832031 9.65625 C 15.042969 9.65625 15.21875 9.582031 15.367188 9.433594 C 15.515625 9.285156 15.589844 9.109375 15.589844 8.898438 C 15.589844 8.691406 15.515625 8.511719 15.367188 8.363281 C 15.21875 8.21875 15.039062 8.144531 14.828125 8.144531 Z M 14.828125 8.144531 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 14.761719 20.953125 C 14.582031 20.953125 14.417969 20.90625 14.261719 20.816406 L 9.777344 18.207031 C 9.628906 18.121094 9.507812 18 9.421875 17.851562 C 9.335938 17.703125 9.289062 17.542969 9.285156 17.371094 C 9.28125 17.199219 9.320312 17.035156 9.402344 16.882812 C 9.484375 16.730469 9.597656 16.609375 9.742188 16.515625 L 14.226562 13.648438 C 14.585938 13.421875 14.941406 13.421875 15.296875 13.648438 L 19.78125 16.515625 C 19.925781 16.609375 20.039062 16.730469 20.121094 16.882812 C 20.203125 17.035156 20.242188 17.199219 20.238281 17.371094 C 20.234375 17.542969 20.191406 17.703125 20.101562 17.851562 C 20.015625 18 19.894531 18.121094 19.746094 18.207031 L 15.257812 20.816406 C 15.105469 20.90625 14.941406 20.953125 14.761719 20.953125 Z M 14.761719 14.425781 C 14.75 14.425781 14.738281 14.429688 14.730469 14.433594 L 10.242188 17.300781 C 10.222656 17.3125 10.214844 17.328125 10.21875 17.351562 C 10.214844 17.371094 10.226562 17.390625 10.246094 17.398438 L 14.730469 20.011719 C 14.75 20.023438 14.773438 20.023438 14.792969 20.011719 L 19.277344 17.402344 C 19.296875 17.390625 19.308594 17.375 19.304688 17.351562 C 19.308594 17.328125 19.300781 17.3125 19.28125 17.300781 L 14.792969 14.433594 C 14.785156 14.425781 14.773438 14.425781 14.761719 14.421875 Z M 14.761719 14.425781 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 14.761719 23.570312 C 14.578125 23.570312 14.410156 23.523438 14.253906 23.433594 L 9.792969 20.835938 C 9.644531 20.746094 9.523438 20.628906 9.433594 20.476562 C 9.34375 20.324219 9.300781 20.164062 9.296875 19.988281 C 9.292969 19.8125 9.332031 19.648438 9.414062 19.492188 C 9.496094 19.339844 9.613281 19.214844 9.757812 19.121094 L 11.160156 18.226562 C 11.269531 18.15625 11.386719 18.136719 11.511719 18.164062 C 11.640625 18.191406 11.738281 18.257812 11.804688 18.367188 C 11.875 18.476562 11.894531 18.59375 11.867188 18.71875 C 11.839844 18.84375 11.773438 18.941406 11.664062 19.011719 L 10.261719 19.90625 C 10.238281 19.921875 10.226562 19.941406 10.226562 19.96875 C 10.226562 19.996094 10.238281 20.015625 10.265625 20.03125 L 14.722656 22.625 C 14.75 22.640625 14.773438 22.640625 14.800781 22.625 L 19.257812 20.027344 C 19.28125 20.015625 19.292969 19.996094 19.296875 19.96875 C 19.296875 19.941406 19.285156 19.921875 19.261719 19.90625 L 17.859375 19.011719 C 17.75 18.941406 17.683594 18.84375 17.65625 18.71875 C 17.628906 18.59375 17.648438 18.476562 17.71875 18.367188 C 17.789062 18.257812 17.886719 18.191406 18.011719 18.164062 C 18.136719 18.136719 18.253906 18.15625 18.363281 18.226562 L 19.765625 19.121094 C 19.910156 19.214844 20.027344 19.339844 20.109375 19.496094 C 20.191406 19.648438 20.230469 19.8125 20.226562 19.988281 C 20.222656 20.164062 20.175781 20.328125 20.089844 20.476562 C 20 20.628906 19.878906 20.746094 19.730469 20.835938 L 15.269531 23.433594 C 15.113281 23.523438 14.941406 23.570312 14.761719 23.570312 Z M 14.761719 23.570312 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 14.761719 26.1875 C 14.582031 26.1875 14.414062 26.140625 14.257812 26.050781 L 9.792969 23.453125 C 9.644531 23.367188 9.523438 23.246094 9.433594 23.097656 C 9.34375 22.945312 9.300781 22.78125 9.296875 22.609375 C 9.292969 22.433594 9.332031 22.269531 9.414062 22.113281 C 9.496094 21.960938 9.613281 21.835938 9.757812 21.742188 L 11.160156 20.84375 C 11.269531 20.777344 11.386719 20.753906 11.511719 20.78125 C 11.636719 20.808594 11.734375 20.878906 11.804688 20.988281 C 11.875 21.09375 11.894531 21.210938 11.867188 21.335938 C 11.839844 21.464844 11.773438 21.5625 11.664062 21.628906 L 10.261719 22.527344 C 10.238281 22.539062 10.226562 22.5625 10.226562 22.589844 C 10.226562 22.617188 10.238281 22.636719 10.265625 22.648438 L 14.722656 25.246094 C 14.75 25.261719 14.773438 25.261719 14.800781 25.246094 L 19.257812 22.648438 C 19.285156 22.636719 19.296875 22.617188 19.296875 22.589844 C 19.296875 22.5625 19.285156 22.539062 19.261719 22.527344 L 17.859375 21.628906 C 17.75 21.5625 17.683594 21.464844 17.65625 21.335938 C 17.628906 21.210938 17.648438 21.09375 17.71875 20.988281 C 17.789062 20.878906 17.886719 20.808594 18.011719 20.78125 C 18.136719 20.753906 18.253906 20.777344 18.363281 20.84375 L 19.765625 21.742188 C 19.910156 21.835938 20.027344 21.960938 20.109375 22.113281 C 20.191406 22.269531 20.230469 22.433594 20.226562 22.609375 C 20.222656 22.78125 20.175781 22.945312 20.089844 23.097656 C 20 23.246094 19.878906 23.367188 19.730469 23.453125 L 15.269531 26.050781 C 15.113281 26.140625 14.941406 26.1875 14.761719 26.1875 Z M 14.761719 26.1875 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 6.765625 15.429688 L 3.121094 15.429688 C 2.992188 15.429688 2.882812 15.386719 2.789062 15.292969 C 2.699219 15.203125 2.652344 15.09375 2.652344 14.964844 C 2.652344 14.835938 2.699219 14.726562 2.789062 14.636719 C 2.882812 14.542969 2.992188 14.5 3.121094 14.5 L 6.765625 14.5 C 6.894531 14.5 7.003906 14.542969 7.09375 14.636719 C 7.183594 14.726562 7.230469 14.835938 7.230469 14.964844 C 7.230469 15.09375 7.183594 15.203125 7.09375 15.292969 C 7.003906 15.386719 6.894531 15.429688 6.765625 15.429688 Z M 6.765625 15.429688 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                        <path fill="#00bc91"
+                                            d="M 6.765625 24.589844 L 3.121094 24.589844 C 2.992188 24.589844 2.882812 24.542969 2.789062 24.453125 C 2.699219 24.363281 2.652344 24.25 2.652344 24.125 C 2.652344 23.996094 2.699219 23.882812 2.789062 23.792969 C 2.882812 23.703125 2.992188 23.65625 3.121094 23.65625 L 6.765625 23.65625 C 6.894531 23.65625 7.003906 23.703125 7.09375 23.792969 C 7.183594 23.882812 7.230469 23.996094 7.230469 24.125 C 7.230469 24.25 7.183594 24.363281 7.09375 24.453125 C 7.003906 24.542969 6.894531 24.589844 6.765625 24.589844 Z M 6.765625 24.589844 "
+                                            fill-opacity="1" fill-rule="nonzero" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="text-5xl font-extrabold transition duration-300 md:text-6xl number lg:text-7xl text-greyBlack opacity-30 group-hover:opacity-100">
+                                    04
+                                </div>
+                                <h4 class="mt-5 mb-4 text-xl font-medium text-black dark:text-white xl:text-2xl">
+                                    Full-stack Development
+                                </h4>
+                                <p>
+                                    Delivering end-to-end solutions by seamlessly integrating frontend and backend
+                                    technologies for comprehensive full-stack development.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- My Services Section End -->
+
+                <!-- Skills Section Start -->
+                <div data-scroll-index="3" id="skill"
+                    class="py-5 xl:py-3.5 max-w-content xl:max-2xl:max-w-50rem max-xl:mx-auto xl:ml-auto">
+
+                    <div
+                        class="relative px-5 py-8 md:p-8 bg-white dark:bg-nightBlack rounded-2xl service-section lg:p-10 2xl:p-13">
+                        <div
+                            class="inline-flex items-center gap-2 px-4 py-2 text-xs tracking-wide text-black dark:text-white border lg:px-5 section-name border-platinum dark:border-greyBlack200 rounded-4xl">
+                            <i class="fal fa-graduation-cap text-theme"></i>
+                            SKILLS
+                        </div>
+                        <div class="mb-8 mt-7 md:my-10 section-title">
+                            <h2
+                                class="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black dark:text-white leading-1.27">
+                                My <span class="font-semibold text-theme">Advantages</span>
+                            </h2>
+                            <p class="max-w-xl mt-4 md:mt-6 subtitle">
+                                Mastering a wide array of technologies and turning complex challenges into seamless
+                                digital experiences with expertise in Angular, .NET, JavaScript, and more.
+                            </p>
+                        </div>
+
+                        <div class=" pt-3">
+                            <div class="skills-bar">
+                                <div class="bar">
+                                    <div class="info">
+                                        <span><b>Frontend Development:</b> React.js, Angular, HTML5, CSS3, Bootstrap,
+                                            JavaScript, JQuery, TypeScript, .Net</span>
+                                    </div>
+                                    <div class="progress-line html"><span></span></div>
+                                </div>
+
+
+                                <div class="bar">
+                                    <div class="info">
+                                        <span><b>Backend Development:</b> Core PHP, PHP—Codeigniter 3 & 4, C#</span>
+                                    </div>
+                                    <div class="progress-line javascript"><span></span></div>
+                                </div>
+
+
+                                <div class="bar">
+                                    <div class="info">
+                                        <span><b>Database Management:</b> MySQL, PhpMyAdmin</span>
+                                    </div>
+                                    <div class="progress-line php"><span></span></div>
+                                </div>
+
+
+                                <div class="bar">
+                                    <div class="info">
+                                        <span><b>Version Control:</b> Git, GitHub, BitBucket</span>
+                                    </div>
+                                    <div class="progress-line python"><span></span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skills Section End -->
+
+
+                <!-- My Resume Section Start -->
+                <div data-scroll-index="4" id="resume"
+                    class="py-5 xl:py-3.5 max-w-content xl:max-2xl:max-w-50rem max-xl:mx-auto xl:ml-auto">
+
+                    <div
+                        class="px-5 py-8 md:p-8 bg-white dark:bg-nightBlack rounded-2xl service-section lg:p-10 2xl:p-13">
+                        <div
+                            class="inline-flex items-center gap-2 px-4 py-2 text-xs tracking-wide text-black dark:text-white border lg:px-5 section-name border-platinum dark:border-greyBlack200 rounded-4xl">
+                            <i class="fal fa-folder-open text-theme"></i>
+                            RESUME
+                        </div>
+                        <div class="mb-8 mt-7 md:my-10 section-title">
+                            <h2
+                                class="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black dark:text-white leading-1.27">
+                                Work <span class="font-semibold text-theme">Experience</span>
+                            </h2>
+                            <p class="max-w-xl mt-4 md:mt-6 subtitle">
+                                From digital marketing to healthcare software, I've delivered impactful projects using
+                                Angular, .NET, JavaScript, SQL, and PHP.
+                            </p>
+                        </div><!--./section-title-->
+
+                        <div class="experience">
+                            <ul
+                                class="space-y-5 md:space-y-11 relative md:before:content-[''] md:before:absolute md:before:left-64 md:before:border-r md:before:border-platinum md:dark:before:border-metalBlack md:before:h-[calc(100%_-1.5rem)] md:before:top-1/2 md:before:-translate-y-1/2">
+                                <li
+                                    class="p-5 border rounded-xl md:flex max-md:space-y-2 border-platinum dark:border-metalBlack md:border-0 md:p-0 md:rounded-none">
+                                    <div class="flex items-center justify-between mb-5 md:w-64 md:block md:mb-0">
+                                        <h6
+                                            class="text-sm font-medium text-black dark:text-white text-opacity-60 md:text-base md:text-opacity-100">
+                                            HHAeXchange
+                                        </h6>
+                                        <p class="text-[13px] md:text-sm text-theme">
+                                            Jan 2023 - Apr 2024
+                                        </p>
+                                    </div>
+                                    <div
+                                        class="md:flex-1 md:pl-16 relative md:before:content-[''] md:before:absolute md:before:-left-1 md:before:top-3 md:before:w-2 md:before:h-2 md:before:bg-theme md:before:rounded-full md:before:shadow-dots_glow">
+                                        <h4
+                                            class="text-xl xl:text-2xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
+                                            Associate Software Engineer
+                                        </h4>
+                                        <p>
+                                            Successfully collaborated with three different teams within HHAeXchange,
+                                            demonstrating adaptability and teamwork across diverse projects and modules.
+                                            Utilized technical expertise in Angular, ASP.Net, C#, SQL, and various tools
+                                            like SQL Server Management Studio (SSMS), Jira, and Confluence, to
+                                            streamline processes and deliver high-quality solutions.
+
+                                        </p>
+                                    </div>
+                                </li>
+                                <li
+                                    class="p-5 border rounded-xl md:flex max-md:space-y-2 border-platinum dark:border-metalBlack md:border-0 md:p-0 md:rounded-none">
+                                    <div class="flex items-center justify-between mb-5 md:w-64 md:block md:mb-0">
+                                        <h6
+                                            class="text-sm font-medium text-black dark:text-white text-opacity-60 md:text-base md:text-opacity-100">
+                                            Shout In & Out
+                                        </h6>
+                                        <p class="text-[13px] md:text-sm text-theme">
+                                            Sep 2021 - Dec -2022
+                                        </p>
+                                    </div>
+                                    <div
+                                        class="md:flex-1 md:pl-16 relative md:before:content-[''] md:before:absolute md:before:-left-1 md:before:top-3 md:before:w-2 md:before:h-2 md:before:bg-theme md:before:rounded-full md:before:shadow-dots_glow">
+                                        <h4
+                                            class="text-xl xl:text-2xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
+                                            Full Stack Web Developer
+                                        </h4>
+                                        <p>
+                                            Successfully completed over 8 projects, demonstrating proficiency in HTML,
+                                            CSS, JS, Bootstrap, & PHP-CodeIgniter.
+                                            Contributed to both front-end and back-end development efforts, ensuring
+                                            responsive and user-friendly web applications.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <br>
+                        <div class="mb-8 mt-7 md:my-10 section-title">
+                            <h2
+                                class="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black dark:text-white leading-1.27">
+                                My <span class="font-semibold text-theme">Education</span>
+                            </h2>
+                            <p class="max-w-xl mt-4 md:mt-6 subtitle">
+                                My academic background empowers me to tackle complex challenges and engineer elegant
+                                digital solutions.
+                            </p>
+                        </div>
+
+                        <div class="experience">
+                            <ul
+                                class="space-y-5 md:space-y-11 relative md:before:content-[''] md:before:absolute md:before:left-64 md:before:border-r md:before:border-platinum md:dark:before:border-metalBlack md:before:h-[calc(100%_-1.5rem)] md:before:top-1/2 md:before:-translate-y-1/2">
+                                <li
+                                    class="p-5 border rounded-xl md:flex max-md:space-y-2 border-platinum dark:border-metalBlack md:border-0 md:p-0 md:rounded-none">
+                                    <div class="flex items-center justify-between mb-5 md:w-64 md:block md:mb-0">
+                                        <h6
+                                            class="text-sm font-medium text-black dark:text-white text-opacity-60 md:text-base md:text-opacity-100">
+                                            Rajrshi Shahu College of Engineering, Pune
+                                        </h6>
+                                        <p class="text-[13px] md:text-sm text-theme">
+                                            Dec 2020 - May 2023
+                                        </p>
+                                    </div>
+                                    <div
+                                        class="md:flex-1 md:pl-16 relative md:before:content-[''] md:before:absolute md:before:-left-1 md:before:top-3 md:before:w-2 md:before:h-2 md:before:bg-theme md:before:rounded-full md:before:shadow-dots_glow">
+                                        <h4
+                                            class="text-xl xl:text-2xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
+                                            Computer Engineering
+                                        </h4>
+                                        <p>
+                                            Utilizing a diverse skill set cultivated through a B.Tech. in
+                                            Computer Engineering, I excelled as a Training & Placement Coordinator,
+                                            fostering student employability and leading various projects with
+                                            distinction. Achieved a stellar 9.44 CGPA, embodying dedication to both
+                                            academic excellence and extracurricular pursuits.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li
+                                    class="p-5 border rounded-xl md:flex max-md:space-y-2 border-platinum dark:border-metalBlack md:border-0 md:p-0 md:rounded-none">
+                                    <div class="flex items-center justify-between mb-5 md:w-64 md:block md:mb-0">
+                                        <h6
+                                            class="text-sm font-medium text-black dark:text-white text-opacity-60 md:text-base md:text-opacity-100">
+                                            Government Polytechnic Nashik
+                                        </h6>
+                                        <p class="text-[13px] md:text-sm text-theme">
+                                            Aug 2017- Sep 2020
+                                        </p>
+                                    </div>
+                                    <div
+                                        class="md:flex-1 md:pl-16 relative md:before:content-[''] md:before:absolute md:before:-left-1 md:before:top-3 md:before:w-2 md:before:h-2 md:before:bg-theme md:before:rounded-full md:before:shadow-dots_glow">
+                                        <h4
+                                            class="text-xl xl:text-2xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
+                                            Computer Technology
+                                        </h4>
+                                        <p>
+                                            Crafting a solid foundation in Computer Technology through my Diploma, I
+                                            achieved a standout 92.56% in my final semester. From mastering PHP and Java
+                                            to delving into DBMS and Data Structure, I embraced diverse technologies,
+                                            and a journey marked by hands-on projects and enriching extracurricular
+                                            activities.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- My Resume Section End -->
+
+                <!-- Blog Section Start -->
+                <div data-scroll-index="5" id="portfolio"
+                    class="py-5 xl:py-3.5 max-w-content xl:max-2xl:max-w-50rem max-xl:mx-auto xl:ml-auto">
+
+                    <div
+                        class="px-5 py-8 md:p-8 bg-white dark:bg-nightBlack rounded-2xl service-section lg:p-10 2xl:p-13">
+                        <div
+                            class="inline-flex items-center gap-2 px-4 py-2 text-xs tracking-wide text-black dark:text-white border lg:px-5 section-name border-platinum dark:border-greyBlack200 rounded-4xl">
+                            <i class="fal fa-tasks-alt text-theme"></i>
+                            PORTFOLIO
+                        </div>
+                        <div class="mt-5 mb-8 md:my-10 section-title">
+                            <h2
+                                class="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black dark:text-white leading-1.27">
+                                My <span class="font-semibold text-theme">Projects</span>
+                            </h2>
+                            <p class="max-w-xl mt-4 md:mt-6 subtitle">
+                                Crafting digital solutions that transcend expectations, from client portfolios to
+                                ecommerce platforms and government projects, ensuring seamless delivery and client
+                                satisfaction.
+
+                            </p>
+                        </div><!--./section-title-->
+
+                        <div class="blog-list md:space-y-7.5 space-y-5">
+                            <div
+                                class="grid md:gap-2 grid-cols-12 overflow-hidden article group bg-flashWhite dark:bg-metalBlack items-center rounded-2xl p-3.5">
+                                <div class="flex col-span-12 overflow-hidden thumbnail sm:col-span-6 md:col-span-5">
+                                    <a class='block w-full overflow-hidden rounded-xl' href='https://satvikfresh.in/' target="_blank">
+                                        <img src="assets/img/projects/satvik.png"
+                                            class="object-cover object-center w-full h-full min-h-[288px] transition-all duration-300 ease-in-out max-h-60 md:min-h-60 group-hover:scale-105"
+                                            alt="Post Title">
+                                    </a>
+                                </div>
+                                <div
+                                    class="relative flex flex-col col-span-12 px-3 pt-6 pb-2 md:p-5 post-content sm:col-span-6 md:col-span-7">
+                                    <div class="flex items-center gap-5">
+                                        <div class="text-sm font-medium tags">
+                                            <a href="#" class="transition-colors hover:text-theme">
+                                                Website | E-Commerce
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="post-title mt-3 md:mt-4.5 mb-6 md:mb-8">
+
+                                        <a class='text-xl font-semibold leading-normal text-theme dark:text-theme transition-colors line-clamp-2 2xl:text-2xl 2xl:leading-normal hover:text-theme'
+                                            href='https://satvikfresh.in/' target="_blank">
+                                            Satvik Fresh
+                                        </a>
+                                        <p class="mb-3">Oil Product's E-Commerce Portal</p>
+                                        <p><span class="font-semibold text-normal">Techstack &mdash;</span> Frontend:
+                                            Frontend: HTML5, CSS3, BT, JS; Backend: PHP-CodeIgniter; Database: MySQL,
+                                            PhpMyAdmin
+                                        </p>
+                                    </div>
+                                    <div class="read-details">
+                                        <a class='inline-flex items-center gap-2 border border-theme text-theme text-sm py-3.5 px-6 rounded-3xl leading-none transition-all duration-300 hover:bg-themeHover hover:border-themeHover dark:font-medium hover:text-white'
+                                            href='https://satvikfresh.in/' target="_blank">
+                                            View Project
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-5 blog-list md:space-y-7.5 space-y-5">
+
+                            <div
+                                class="grid md:gap-2 grid-cols-12 overflow-hidden article group bg-flashWhite dark:bg-metalBlack items-center rounded-2xl p-3.5">
+                                <div class="flex col-span-12 overflow-hidden thumbnail sm:col-span-6 md:col-span-5">
+                                    <a class='block w-full overflow-hidden rounded-xl' href='https://b10services.com/' target="_blank">
+                                        <img src="assets/img/projects/B10-Services.png"
+                                            class="object-cover object-center w-full h-full min-h-[288px] transition-all duration-300 ease-in-out max-h-60 md:min-h-60 group-hover:scale-105"
+                                            alt="Post Title">
+                                    </a>
+                                </div>
+                                <div
+                                    class="relative flex flex-col col-span-12 px-3 pt-6 pb-2 md:p-5 post-content sm:col-span-6 md:col-span-7">
+                                    <div class="flex items-center gap-5">
+                                        <div class="text-sm font-medium tags">
+                                            <a href="https://b10services.com/" target="_blank" class="transition-colors hover:text-theme">
+                                                Website | Portfolio
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="post-title mt-3 md:mt-4.5 mb-6 md:mb-8">
+
+                                        <a class='text-xl font-semibold leading-normal text-theme dark:text-theme transition-colors line-clamp-2 2xl:text-2xl 2xl:leading-normal hover:text-theme'
+                                            href='https://b10services.com/' target="_blank">
+                                            B10 Services
+                                        </a>
+                                        <p class="mb-3">Creative Service Agency Portfolio</p>
+                                        <p><span class="font-semibold text-normal">Techstack &mdash;</span> Frontend:
+                                            HTML5, CSS3, BT, JS; Backend: PHP-CodeIgniter; Database: MySQL, PhpMyAdmin
+                                        </p>
+                                    </div>
+                                    <div class="read-details">
+                                        <a class='inline-flex items-center gap-2 border border-theme text-theme text-sm py-3.5 px-6 rounded-3xl leading-none transition-all duration-300 hover:bg-themeHover hover:border-themeHover dark:font-medium hover:text-white'
+                                            href='https://b10services.com/' target="_blank">
+                                            View Project
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="mt-10 text-center more-blogs md:mt-13">
+                            <a href="#"
+                                class="inline-flex items-center gap-2 text-[15px] font-medium border border-theme bg-theme text-white py-4.5 px-9 rounded-4xl leading-none transition-all duration-300 hover:bg-themeHover hover:border-themeHover">
+                                More Projects
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Section End -->
+                <!-- Contact Section Start -->
+                <div data-scroll-index="8" id="contact"
+                    class="py-5 xl:py-3.5 max-w-content xl:max-2xl:max-w-50rem max-xl:mx-auto xl:ml-auto">
+
+                    <div class="px-5 py-8 bg-white dark:bg-nightBlack rounded-2xl contact-section lg:p-13">
+                        <div
+                            class="inline-flex items-center gap-2 px-4 py-2 text-xs tracking-wide text-black dark:text-white border lg:px-5 section-name border-platinum dark:border-greyBlack200 rounded-4xl">
+                            <i class="fal fa-envelope-open text-theme"></i>
+                            CONTACT
+                        </div>
+                        <div class="mb-10 mt-7 section-title">
+                            <h2
+                                class="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black dark:text-white leading-1.27">
+                                Contact <span class="font-semibold text-theme">Me.</span>
+                            </h2>
+                            <p class="mt-3.5 md:mt-5 subtitle max-w-sectionTitle">
+                                Ready to discuss your next project? Let's connect and turn your ideas into reality.
+
+                            </p>
+                        </div><!--./section-title-->
+
+                        <div class="grid gap-12 mt-8 mb-10 md:my-12 md:grid-cols-12">
+                            <div class="md:col-span-5">
+                                <ul class="space-y-6 md:space-y-10 2xl:space-y-12 contact-info">
+                                    <li class="flex flex-wrap items-center gap-5 ">
+                                        <div class="flex justify-center w-12 icon">
+                                            <svg width="29" height="42" viewBox="0 0 29 42" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M21.9647 14.6023C21.9647 13.1428 21.5323 11.7161 20.7221 10.5026C19.9119 9.28904 18.7603 8.34321 17.4129 7.78469C16.0656 7.22617 14.5831 7.08003 13.1527 7.36476C11.7224 7.6495 10.4086 8.35231 9.3774 9.38432C8.3462 10.4163 7.64394 11.7312 7.35943 13.1627C7.07492 14.5941 7.22095 16.0778 7.77903 17.4262C8.33711 18.7746 9.28219 19.9271 10.4947 20.738C11.7073 21.5488 13.1329 21.9816 14.5912 21.9816C16.5461 21.9793 18.4203 21.2011 19.8026 19.8177C21.1849 18.4343 21.9624 16.5587 21.9647 14.6023ZM8.19081 14.6023C8.19081 13.3354 8.56618 12.097 9.26947 11.0436C9.97276 9.99021 10.9724 9.1692 12.1419 8.68439C13.3114 8.19957 14.5983 8.07272 15.8399 8.31988C17.0815 8.56703 18.2219 9.1771 19.117 10.0729C20.0121 10.9687 20.6217 12.1101 20.8687 13.3526C21.1156 14.5952 20.9889 15.8831 20.5045 17.0536C20.02 18.224 19.1997 19.2244 18.1471 19.9283C17.0946 20.6321 15.8571 21.0078 14.5912 21.0078C12.8943 21.0059 11.2674 20.3304 10.0675 19.1296C8.86764 17.9287 8.1927 16.3005 8.19081 14.6023ZM24.2873 33.543C22.5204 32.783 20.65 32.2913 18.738 32.0842C20.9575 29.4709 23.0322 26.7378 24.9528 23.8972C27.4103 20.1273 28.6053 17.0871 28.6053 14.6013C28.6053 10.8818 27.1289 7.31453 24.5008 4.68439C21.8728 2.05426 18.3084 0.57666 14.5917 0.57666C10.8751 0.57666 7.31067 2.05426 4.68261 4.68439C2.05455 7.31453 0.578125 10.8818 0.578125 14.6013C0.578125 17.0871 1.77411 20.1273 4.23066 23.8967C6.15138 26.7371 8.22592 29.4701 10.445 32.0837C8.54054 32.2902 6.67728 32.7786 4.9162 33.5329C2.63665 34.5891 2.15778 35.7693 2.15778 36.5736C2.15778 37.9338 3.51546 39.1671 5.98063 40.0466C8.76145 40.9426 11.6708 41.374 14.5917 41.3235C17.5127 41.3739 20.422 40.9425 23.2028 40.0466C25.6675 39.1671 27.0252 37.9338 27.0252 36.5736C27.0252 35.7741 26.5511 34.5963 24.2873 33.543ZM1.5507 14.6023C1.5507 11.141 2.92461 7.82145 5.37018 5.37394C7.81576 2.92644 11.1327 1.55144 14.5912 1.55144C18.0498 1.55144 21.3667 2.92644 23.8123 5.37394C26.2579 7.82145 27.6318 11.141 27.6318 14.6023C27.6318 19.8104 21.5983 27.1016 17.1932 32.4255C16.2503 33.5655 15.3514 34.6518 14.5912 35.6209C13.8311 34.6518 12.9322 33.5655 11.9893 32.4255C7.5842 27.1016 1.5507 19.8104 1.5507 14.6023ZM14.5912 40.3506C7.83727 40.3506 3.13083 38.3609 3.13083 36.5751C3.13083 35.8397 3.91014 35.0736 5.32475 34.4206C7.19133 33.6402 9.16768 33.1547 11.1832 32.9814L11.2396 33.0494C12.3399 34.3813 13.3833 35.64 14.2057 36.7134C14.2511 36.7728 14.3095 36.8209 14.3765 36.854C14.4435 36.8871 14.5172 36.9043 14.592 36.9043C14.6667 36.9043 14.7404 36.8871 14.8074 36.854C14.8744 36.8209 14.9328 36.7728 14.9783 36.7134C15.7997 35.64 16.8411 34.3818 17.9443 33.0494L18.0007 32.9814C20.0231 33.1548 22.0061 33.6433 23.8778 34.4292C25.2805 35.0827 26.0531 35.8454 26.0531 36.5774C26.0516 38.3609 21.3452 40.3506 14.5912 40.3506Z"
+                                                    fill="#00BC91" />
+                                                <circle cx="14.5889" cy="14.6548" r="3.69277" stroke="white"
+                                                    stroke-width="0.7" />
+                                            </svg>
+                                        </div>
+                                        <div class="flex-1">
+                                            <h6 class="text-lg text-black dark:text-white">Location</h6>
+                                            <p class="text-sm">Pune, India</p>
+                                        </div>
+                                    </li>
+                                    <li class="flex flex-wrap items-center gap-5">
+                                        <div class="flex justify-center w-12 icon">
+                                            <svg width="41" height="42" viewBox="0 0 41 42" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M31.6257 9.60099V6.29746H27.5763L20.6254 0.64209L13.6843 6.29746H9.62601V9.57337L0.300781 17.1443V40.133C0.300781 40.7549 0.806087 41.261 1.42707 41.261H39.7609C40.3819 41.261 40.8872 40.7549 40.8872 40.133V17.1447L31.6257 9.60099ZM40.2455 40.2187L26.9416 28.7431L40.2536 17.9864V40.1326C40.2536 40.1622 40.2504 40.1907 40.2455 40.2187ZM40.0832 17.308L31.6257 24.1422V10.4195L40.0832 17.308ZM20.6258 1.46056L26.5706 6.29746H14.6888L20.6258 1.46056ZM30.9913 6.93233V24.6548L26.4529 28.3214L20.6262 23.2957L14.7643 28.3186L10.26 24.6791V6.93233H30.9913ZM0.936777 40.1663C0.935965 40.1553 0.935153 40.1444 0.935153 40.133V17.96L14.274 28.7386L0.936777 40.1663ZM9.62601 24.1665L1.12185 17.295L9.62601 10.3906V24.1665ZM1.37877 40.6237L20.625 24.1328L39.7463 40.6257H1.42707C1.41083 40.6261 1.3946 40.6253 1.37877 40.6237ZM26.1534 13.8802H15.0979V13.2453H26.1534V13.8802ZM26.1534 20.2789H15.0979V19.6436H26.1534V20.2789Z"
+                                                    fill="#00BC91" />
+                                                <path
+                                                    d="M30.9531 7.00537L31.0128 24.7123L31.6389 24.2046L31.6389 7.00537L30.9531 7.00537Z"
+                                                    fill="white" />
+                                                <rect x="15.1133" y="13.2266" width="11.0781" height="0.685791"
+                                                    fill="white" />
+                                                <rect x="9.625" y="6.3042" width="22.0156" height="0.700928"
+                                                    fill="white" />
+                                                <path
+                                                    d="M10.3125 7.00488L10.2528 24.7118L9.62671 24.2041L9.62671 7.00488L10.3125 7.00488Z"
+                                                    fill="white" />
+                                                <path d="M15.0547 19.6567H26.1328V20.27H15.0547V19.6567Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </div>
+                                        <div class="flex-1">
+                                            <h6 class="text-lg text-black dark:text-white">E-mail</h6>
+                                            <p class="text-sm">shaushete@gmail.com</p>
+                                        </div>
+                                    </li>
+                                    <li class="flex flex-wrap items-center gap-5">
+                                        <div class="flex justify-center w-12 icon">
+                                            <svg width="41" height="42" viewBox="0 0 41 42" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M28.7321 41.2896C28.9475 41.3359 29.1625 41.3587 29.3795 41.3587C31.885 41.3583 34.5278 38.3392 37.6673 34.4367C38.2236 33.7461 38.1415 32.7236 37.4767 32.0582L31.1742 25.7508C30.4817 25.0581 29.4031 25.0065 28.7163 25.6328C25.6475 28.4315 24.916 28.2488 23.6753 27.6103C19.528 25.4754 16.0691 22.0138 13.9367 17.864C13.2987 16.6231 13.1162 15.8902 15.9126 12.819C16.5381 12.1317 16.4865 11.0514 15.7948 10.3592L9.4919 4.05133C8.82743 3.38593 7.80574 3.30459 7.11608 3.86017C2.87895 7.27501 -0.315768 10.1013 0.26823 12.8032C2.72899 24.1841 17.3602 38.8269 28.7321 41.2896ZM29.2771 26.2486C29.6286 25.9289 30.2155 25.9692 30.5857 26.3397L36.8882 32.6471C37.2454 33.0051 37.3031 33.5614 37.019 33.9141C36.4137 34.6666 35.8221 35.3909 35.2449 36.0686L27.1619 27.9789C27.7588 27.5708 28.4449 27.0077 29.2771 26.2486ZM7.6379 4.5093C7.78827 4.38809 7.97562 4.32912 8.16907 4.32912C8.42876 4.32912 8.69861 4.43527 8.90343 4.64026L15.2063 10.9481C15.5765 11.3186 15.6176 11.9063 15.2973 12.2578C14.5389 13.0908 13.9762 13.7775 13.5686 14.3748L5.4852 6.28504C6.16231 5.7073 6.88601 5.11521 7.6379 4.5093ZM4.85451 6.83173L13.1231 15.1069C12.4931 16.3176 12.6377 17.1583 13.1962 18.2447C15.4075 22.5482 18.994 26.1371 23.2949 28.3513C24.38 28.9106 25.2204 29.0554 26.4304 28.4247L34.6986 36.6998C32.5226 39.1709 30.5677 40.8352 28.9085 40.4753C17.791 38.0675 3.48774 23.7529 1.08184 12.6267C0.722586 10.9658 2.38527 9.00967 4.85451 6.83173Z"
+                                                    fill="#00BC91" />
+                                                <path
+                                                    d="M23.3107 1.37642C32.5978 1.37642 40.1532 8.93738 40.1532 18.231C40.1532 18.4612 40.3393 18.6475 40.5693 18.6475C40.7993 18.6475 40.9855 18.4612 40.9855 18.231C40.9855 8.4782 33.0566 0.543457 23.3107 0.543457C23.0807 0.543457 22.8945 0.729736 22.8945 0.95994C22.8945 1.19014 23.0807 1.37642 23.3107 1.37642Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M23.3107 8.02633C28.9336 8.02633 33.5081 12.604 33.5081 18.231C33.5081 18.4612 33.6942 18.6475 33.9242 18.6475C34.1543 18.6475 34.3404 18.4612 34.3404 18.231C34.3404 12.1448 29.3925 7.19336 23.3107 7.19336C23.0807 7.19336 22.8945 7.37964 22.8945 7.60984C22.8945 7.84005 23.0807 8.02633 23.3107 8.02633Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M22.8945 14.2597C22.8945 14.4899 23.0807 14.6762 23.3107 14.6762C25.2691 14.6762 26.8626 16.271 26.8626 18.2314C26.8626 18.4616 27.0488 18.6479 27.2788 18.6479C27.5088 18.6479 27.6949 18.4616 27.6949 18.2314C27.6949 15.8118 25.7284 13.8433 23.3107 13.8433C23.0807 13.8433 22.8945 14.0295 22.8945 14.2597Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </div>
+                                        <div class="flex-1">
+                                            <h6 class="text-lg text-black dark:text-white">Phone</h6>
+                                            <p class="text-sm">+91 89750 60633</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div><!-- Contact info end -->
+
+                            <div class="md:col-span-7">
+                                <form id="contactForm" action="https://minfotailwind.netlify.app/contact-form.php"
+                                    method="POST" class="space-y-4">
+                                    <div class="form-group">
+                                        <input type="text" name="client__name" id="client__name" placeholder="Name"
+                                            class="w-full p-5 text-sm outline-none h-13 focus:border-theme dark:focus:border-theme dark:placeholder:text-white/40"
+                                            required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="client_email" id="client_email" placeholder="E-Mail"
+                                            class="w-full p-5 text-sm outline-none h-13 focus:border-theme dark:focus:border-theme dark:placeholder:text-white/40"
+                                            required>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea name="contact__message" name="contact__message" placeholder="Message"
+                                            rows="5"
+                                            class="w-full px-5 py-4 text-sm outline-none focus:border-theme dark:placeholder:text-white/40"></textarea>
+                                    </div>
+                                    <div class=" form-group">
+                                        <button type="submit"
+                                            class="inline-flex items-center gap-2 text-[15px] font-medium border border-theme bg-theme text-white py-4.5 px-9 rounded-4xl leading-none transition-all duration-300 hover:bg-themeHover hover:border-themeHover"
+                                            aria-label="Send Message">
+                                            Send Message
+                                        </button>
+                                    </div>
+                                </form>
+                                <!-- Contact form end -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Contact Section End -->
+
+
+                <!-- Footer Start -->
+                <footer class="py-6 text-center lg:ml-auto footer-section max-w-content xl:max-2xl:max-w-50rem">
+                    <p class="">
+                        All rights reserved by
+                        <a href="#" class="transition-colors text-theme">Shaurya S. Shete</a>
+                    </p>
+                </footer>
+                <!-- Footer End -->
+            </div>
+            <!-- Main Content End -->
+        </div>
+    </div>
+    <!-- App End -->
+
+
+    <!-- Background Line and Animation -->
+    <div
+        class="bg-lines fixed inset-0 -z-1 md:max-xl:max-w-[45rem] xl:max-w-60rem 2xl:max-w-container mx-auto max-sm:px-8 sm:max-xl:px-12">
+        <div class="line-wrapper max-w-[1130px] w-full h-full ml-auto 2xl:-mr-24 relative flex justify-between">
+
+            <div
+                class="relative w-px h-full border-r border-dashed line line1 border-slate-300 dark:border-metalBlack before:absolute before:w-2 before:h-2 before:bg-theme before:rotate-45 before:-left-1 before:animate-top_bottom">
+            </div>
+
+            <div
+                class="relative w-px h-full border-r border-dashed line line2 border-slate-300 dark:border-metalBlack before:absolute before:bottom-0 before:w-2 before:h-2 before:bg-theme before:rotate-45 before:-left-1 before:animate-bottom_top before:animate-delay-3s">
+            </div>
+
+            <div
+                class="relative w-px h-full border-r border-dashed line line3 border-slate-300 dark:border-metalBlack before:absolute before:w-2 before:h-2 before:bg-theme before:rotate-45 before:-left-1 before:animate-top_bottom before:animate-delay-3s">
+            </div>
+
+            <div
+                class="relative w-px h-full border-r border-dashed line line4 border-slate-300 dark:border-metalBlack before:absolute before:bottom-0 before:w-2 before:h-2 before:bg-theme before:rotate-45 before:-left-1 before:animate-bottom_top before:animate-delay-2s">
+            </div>
+
+        </div>
+    </div>
+    <!-- Ends Here -->
+
+    <!-- Js Library Start -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/tw-elements.umd.min.js"></script>
+    <script src="assets/js/cd-headline.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/scrollIt.min.js"></script>
+    <script src="assets/js/circle-progress.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/theme-mode.js"></script>
+    <!-- Js Library End -->
+</body>
+
+</html>
